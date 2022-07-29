@@ -1,0 +1,1951 @@
+
+
+local ScreenGui = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local UIGradient = Instance.new("UIGradient")
+local TextLabel = Instance.new("TextLabel")
+local UICorner = Instance.new("UICorner")
+local UICorner_2 = Instance.new("UICorner")
+local TextLabel_2 = Instance.new("TextLabel")
+local UICorner_3 = Instance.new("UICorner")
+local TextLabel_3 = Instance.new("TextLabel")
+local Home = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local Scripts = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local Hubs = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local Guis = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local Credits = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local HomeTab = Instance.new("Frame")
+local UICorner_9 = Instance.new("UICorner")
+local TextLabel_4 = Instance.new("TextLabel")
+local TextLabel_5 = Instance.new("TextLabel")
+local TextLabel_6 = Instance.new("TextLabel")
+local TextLabel_7 = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+local ScriptsTab = Instance.new("Frame")
+local UICorner_10 = Instance.new("UICorner")
+local TextLabel_8 = Instance.new("TextLabel")
+local TextButton_2 = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local TextButton_3 = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local TextButton_4 = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local TextButton_5 = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local TextButton_6 = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local TextButton_7 = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local TextButton_8 = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local TextButton_9 = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local TextButton_10 = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
+local TextButton_11 = Instance.new("TextButton")
+local UICorner_20 = Instance.new("UICorner")
+local TextButton_12 = Instance.new("TextButton")
+local UICorner_21 = Instance.new("UICorner")
+local TextButton_13 = Instance.new("TextButton")
+local UICorner_22 = Instance.new("UICorner")
+local GuisTab = Instance.new("Frame")
+local UICorner_23 = Instance.new("UICorner")
+local TextLabel_9 = Instance.new("TextLabel")
+local TextButton_14 = Instance.new("TextButton")
+local UICorner_24 = Instance.new("UICorner")
+local TextButton_15 = Instance.new("TextButton")
+local UICorner_25 = Instance.new("UICorner")
+local TextButton_16 = Instance.new("TextButton")
+local UICorner_26 = Instance.new("UICorner")
+local TextButton_17 = Instance.new("TextButton")
+local UICorner_27 = Instance.new("UICorner")
+local TextButton_18 = Instance.new("TextButton")
+local UICorner_28 = Instance.new("UICorner")
+local TextButton_19 = Instance.new("TextButton")
+local UICorner_29 = Instance.new("UICorner")
+local TextButton_20 = Instance.new("TextButton")
+local UICorner_30 = Instance.new("UICorner")
+local TextButton_21 = Instance.new("TextButton")
+local UICorner_31 = Instance.new("UICorner")
+local TextButton_22 = Instance.new("TextButton")
+local UICorner_32 = Instance.new("UICorner")
+local TextButton_23 = Instance.new("TextButton")
+local UICorner_33 = Instance.new("UICorner")
+local TextButton_24 = Instance.new("TextButton")
+local UICorner_34 = Instance.new("UICorner")
+local TextButton_25 = Instance.new("TextButton")
+local UICorner_35 = Instance.new("UICorner")
+local HubsTab = Instance.new("Frame")
+local UICorner_36 = Instance.new("UICorner")
+local TextLabel_10 = Instance.new("TextLabel")
+local TextButton_26 = Instance.new("TextButton")
+local UICorner_37 = Instance.new("UICorner")
+local TextButton_27 = Instance.new("TextButton")
+local UICorner_38 = Instance.new("UICorner")
+local TextButton_28 = Instance.new("TextButton")
+local UICorner_39 = Instance.new("UICorner")
+local TextButton_29 = Instance.new("TextButton")
+local UICorner_40 = Instance.new("UICorner")
+local TextButton_30 = Instance.new("TextButton")
+local UICorner_41 = Instance.new("UICorner")
+local TextButton_31 = Instance.new("TextButton")
+local UICorner_42 = Instance.new("UICorner")
+local TextButton_32 = Instance.new("TextButton")
+local UICorner_43 = Instance.new("UICorner")
+local TextButton_33 = Instance.new("TextButton")
+local UICorner_44 = Instance.new("UICorner")
+local TextButton_34 = Instance.new("TextButton")
+local UICorner_45 = Instance.new("UICorner")
+local TextButton_35 = Instance.new("TextButton")
+local UICorner_46 = Instance.new("UICorner")
+local TextButton_36 = Instance.new("TextButton")
+local UICorner_47 = Instance.new("UICorner")
+local TextButton_37 = Instance.new("TextButton")
+local UICorner_48 = Instance.new("UICorner")
+local CreditsTab = Instance.new("Frame")
+local UICorner_49 = Instance.new("UICorner")
+local TextLabel_11 = Instance.new("TextLabel")
+local TextLabel_12 = Instance.new("TextLabel")
+local TextLabel_13 = Instance.new("TextLabel")
+local TextLabel_14 = Instance.new("TextLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ScreenGui.ResetOnSpawn = false
+
+Main.Name = "Main"
+Main.Parent = ScreenGui
+Main.BackgroundColor3 = Color3.fromRGB(123, 0, 0)
+Main.Position = UDim2.new(0.105039023, 0, 0.0895673111, 0)
+Main.Size = UDim2.new(0, 503, 0, 293)
+Main.Active = true
+Main.Draggable = true
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.42, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.64, Color3.fromRGB(83, 83, 83)), ColorSequenceKeypoint.new(0.79, Color3.fromRGB(124, 124, 124)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient.Parent = Main
+
+TextLabel.Parent = Main
+TextLabel.BackgroundColor3 = Color3.fromRGB(123, 0, 0)
+TextLabel.Size = UDim2.new(0, 99, 0, 293)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "SONIC.EXE"
+TextLabel.TextColor3 = Color3.fromRGB(123, 0, 0)
+TextLabel.TextSize = 14.000
+
+
+
+
+
+Home.Name = "ERROR"
+Home.Parent = Main
+Home.BackgroundColor3 = Color3.fromRGB(101, 4, 4)
+Home.Position = UDim2.new(0.0198807158, 0, 0.136518776, 0)
+Home.Size = UDim2.new(0, 78, 0, 23)
+Home.Font = Enum.Font.SourceSans
+Home.Text = "Beta"
+Home.TextColor3 = Color3.fromRGB(0, 0, 0)
+Home.TextSize = 14.000
+Home.MouseButton1Click:Connect(function()
+    
+    HomeTab.Visible = false
+    Sonic.exe.Visible = true
+    GuisTab.Visible = false
+    HubsTab.Visible = false
+    
+end)
+
+ 
+
+
+UICorner_4.CornerRadius = UDim.new(0, 13)
+UICorner_4.Parent = Home
+
+
+Scripts.Name = "Sonic.exe"
+Scripts.Parent = Main
+Scripts.BackgroundColor3 = Color3.fromRGB(101, 4, 4)
+Scripts.Position = UDim2.new(0.0198807158, 0, 0.235494897, 0)
+Scripts.Size = UDim2.new(0, 78, 0, 23)
+Scripts.Font = Enum.Font.SourceSans
+Scripts.Text = "Sonic.exe"
+Scripts.TextColor3 = Color3.fromRGB(0, 0, 0)
+Scripts.TextSize = 14.000
+Scripts.MouseButton1Click:Connect(function()
+    ScriptsTab.Visible = false
+    HomeTab.Visible = true
+    GuisTab.Visible = false
+    HubsTab.Visible = false
+    CreditsTab.Visible = false
+    
+    
+end)
+
+
+UICorner_5.CornerRadius = UDim.new(0, 13)
+UICorner_5.Parent = Scripts
+
+Hubs.Name = "NULL"
+Hubs.Parent = Main
+Hubs.BackgroundColor3 = Color3.fromRGB(101, 4, 4)
+Hubs.Position = UDim2.new(0.0198807158, 0, 0.334471017, 0)
+Hubs.Size = UDim2.new(0, 78, 0, 23)
+Hubs.Font = Enum.Font.SourceSans
+Hubs.Text = "NULL"
+Hubs.TextColor3 = Color3.fromRGB(0, 0, 0)
+Hubs.TextSize = 14.000
+Hubs.MouseButton1Click:Connect(function()
+    HubsTab.Visible = false
+    HomeTab.Visible = true
+    GuisTab.Visible = false
+    ScriptsTab.Visible = false
+    CreditsTab.Visible = false
+end)
+
+UICorner_6.CornerRadius = UDim.new(0, 13)
+UICorner_6.Parent = Hubs
+
+Guis.Name = "NULL"
+Guis.Parent = Main
+Guis.BackgroundColor3 = Color3.fromRGB(101, 4, 4)
+Guis.Position = UDim2.new(0.0198807158, 0, 0.433447123, 0)
+Guis.Size = UDim2.new(0, 78, 0, 23)
+Guis.Font = Enum.Font.SourceSans
+Guis.Text = "NULL"
+Guis.TextColor3 = Color3.fromRGB(0, 0, 0)
+Guis.TextSize = 14.000
+Guis.MouseButton1Click:Connect(function()
+    GuisTab.Visible = false
+    HomeTab.Visible = true
+    HubsTab.Visible = false
+    HubsTab.Visible = false
+    CreditsTab.Visible = false
+end)
+
+UICorner_7.CornerRadius = UDim.new(0, 13)
+UICorner_7.Parent = Guis
+
+
+UICorner_8.CornerRadius = UDim.new(0, 13)
+UICorner_8.Parent = Guis
+
+HomeTab.Name = "HomeTab"
+HomeTab.Parent = Main
+HomeTab.BackgroundColor3 = Color3.fromRGB(101, 4, 4)
+HomeTab.Position = UDim2.new(0.196819082, 0, 0.0989761129, 0)
+HomeTab.Size = UDim2.new(0, 404, 0, 264)
+
+UICorner_9.CornerRadius = UDim.new(0, 13)
+UICorner_9.Parent = HomeTab
+
+TextButton_2.Parent = HomeTab
+TextButton_2.BackgroundColor3 = Color3.fromRGB(123, 0, 0)
+TextButton_2.Position = UDim2.new(0.0396039598, 0, 0.155303031, 0)
+TextButton_2.Size = UDim2.new(0, 110, 0, 35)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = "Ability 1"
+TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.TextSize = 14.000
+TextButton_2.MouseButton1Down:Connect(function()
+	TextButton_2.Text = "Loaded!"
+    wait(2)
+    TextButton_2.Text = "Ability 1"
+  getgenv().autofarm = true
+
+--REMADE BY MELON
+
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+	Title = "Melon's (FE) Scripts";
+	Text = "Loading, enjoy!";
+	Icon = "rbxthumb://type=Asset&id=7969699183&w=150&h=150"})
+Duration = 16;
+HumanDied = false
+local CountSCIFIMOVIELOL = 1
+function SCIFIMOVIELOL(Part0,Part1,Position,Angle)
+	local AlignPos = Instance.new('AlignPosition', Part1); AlignPos.Name = "AliP_"..CountSCIFIMOVIELOL
+	AlignPos.ApplyAtCenterOfMass = true;
+	AlignPos.MaxForce = 5772000--67752;
+	AlignPos.MaxVelocity = math.huge/9e110;
+	AlignPos.ReactionForceEnabled = false;
+	AlignPos.Responsiveness = 200;
+	AlignPos.RigidityEnabled = false;
+	local AlignOri = Instance.new('AlignOrientation', Part1); AlignOri.Name = "AliO_"..CountSCIFIMOVIELOL
+	AlignOri.MaxAngularVelocity = math.huge/9e110;
+	AlignOri.MaxTorque = 5772000
+	AlignOri.PrimaryAxisOnly = false;
+	AlignOri.ReactionTorqueEnabled = false;
+	AlignOri.Responsiveness = 200;
+	AlignOri.RigidityEnabled = false;
+	local AttachmentA=Instance.new('Attachment',Part1); AttachmentA.Name = "Ath_"..CountSCIFIMOVIELOL
+	local AttachmentB=Instance.new('Attachment',Part0); AttachmentB.Name = "Ath_"..CountSCIFIMOVIELOL
+	AttachmentA.Orientation = Angle or Vector3.new(0,0,0)
+	AttachmentA.Position = Position or Vector3.new(0,0,0)
+	AlignPos.Attachment1 = AttachmentA;
+	AlignPos.Attachment0 = AttachmentB;
+	AlignOri.Attachment1 = AttachmentA;
+	AlignOri.Attachment0 = AttachmentB;
+	CountSCIFIMOVIELOL = CountSCIFIMOVIELOL + 1
+	return {AlignPos,AlignOri,AttachmentA,AttachmentB}
+end
+
+if _G.netted ~= true then
+	_G.netted = true
+	coroutine.wrap(function()
+		settings().Physics.PhysicsEnvironmentalThrottle = Enum.EnviromentalPhysicsThrottle.Disabled
+		settings().Physics.AllowSleep = false
+		game:GetService("RunService").RenderStepped:Connect(function()
+			game:FindFirstChildOfClass("Players").LocalPlayer.MaximumSimulationRadius=math.pow(math.huge,math.huge)
+			sethiddenproperty(game:FindFirstChildOfClass("Players").LocalPlayer,"SimulationRadius",math.huge*math.huge)
+		end)
+	end)()
+end
+
+game:FindFirstChildOfClass("Players").LocalPlayer["Character"].Archivable = true
+local hatnameclone = {}
+for _,v in next, game:FindFirstChildOfClass("Players").LocalPlayer["Character"]:GetChildren() do
+	if v:IsA("Accessory") then
+		if hatnameclone[v.Name] then
+			if hatnameclone[v.Name] == "s" then
+				hatnameclone[v.Name] = {}
+			end
+			table.insert(hatnameclone[v.Name],v)
+		else
+			hatnameclone[v.Name] = "s"
+		end
+	end
+end
+for _,v in pairs(hatnameclone) do
+	if type(v) == "table" then
+		local num = 1
+		for _,w in pairs(v) do
+			w.Name = w.Name..num
+			num = num + 1
+		end
+	end
+end
+hatnameclone = nil
+
+local DeadChar = game:FindFirstChildOfClass("Players").LocalPlayer.Character
+
+local fldr = Instance.new("Folder",game:FindFirstChildOfClass("Players").LocalPlayer["Character"])
+fldr.Name = "DMYF"
+local CloneChar = DeadChar:Clone()
+local ANIMATIONHERE
+if CloneChar:FindFirstChild("Animate") then
+	ANIMATIONHERE = CloneChar:FindFirstChild("Animate"):Clone()
+	CloneChar:FindFirstChild("Animate"):Destroy()
+end
+if CloneChar:FindFirstChildOfClass("Folder") then CloneChar:FindFirstChildOfClass("Folder"):Destroy() end
+if CloneChar.Torso:FindFirstChild("Neck") then
+	local Clonessss = CloneChar.Torso:FindFirstChild("Neck"):Clone()
+	Clonessss.Part0 = nil
+	Clonessss.Part1 = DeadChar.Head
+	Clonessss.Parent = DeadChar.Torso
+end
+CloneChar.Parent = fldr
+CloneChar.HumanoidRootPart.CFrame = DeadChar.HumanoidRootPart.CFrame
+CloneChar.Humanoid.BreakJointsOnDeath = false
+CloneChar.Name = "non"
+CloneChar.Humanoid.DisplayDistanceType = "None"
+
+for _,v in next, DeadChar:GetChildren() do
+	if v:IsA("Accessory") then
+		local topacc = false
+		if v.Handle:FindFirstChildOfClass("Weld") then v.Handle:FindFirstChildOfClass("Weld"):Destroy() end
+		v.Handle.Massless = true
+		v.Handle.CanCollide = false
+		if v.Handle:FindFirstChildOfClass("Attachment") then
+			local ath__ = v.Handle:FindFirstChildOfClass("Attachment")
+			if ath__.Name == "HatAttachment" or ath__.Name == "HairAttachment" or ath__.Name == "FaceFrontAttachment" or ath__.Name == "FaceCenterAttachment" then
+				topacc = ath__.Name
+			end
+		end
+        local bv = Instance.new("BodyVelocity",v.Handle)
+		bv.Velocity = Vector3.new(0,0,0)
+		coroutine.wrap(function()
+			if topacc then
+				local allthings = SCIFIMOVIELOL(v.Handle,DeadChar.Torso,Vector3.new(0,1.5,0)+ (DeadChar.Head[topacc].Position + (v.Handle[topacc].Position*-1)),Vector3.new(0,0,0))
+				local normaltop = allthings[1].Attachment1
+				local alipos = allthings[1]
+				local alirot = allthings[2]
+				local p0 = v.Handle
+				local p1 = DeadChar.Head
+				alipos.Parent = CloneChar:FindFirstChild(v.Name).Handle
+				alirot.Parent = CloneChar:FindFirstChild(v.Name).Handle
+				while true do
+					game:GetService("RunService").RenderStepped:wait()
+					if HumanDied then break end
+					coroutine.wrap(function()
+						if alipos.Attachment1 == normaltop then
+							p0.CFrame = p0.CFrame:lerp((((DeadChar.Torso.CFrame * CFrame.new(0,1.5,0)) * p1[topacc].CFrame) * p0[topacc].CFrame:inverse()),1)
+						else
+							v.Handle.CFrame = v.Handle.CFrame:lerp(alipos.Attachment1.Parent.CFrame * CFrame.new(alipos.Attachment1.Position) * CFrame.Angles(math.rad(alipos.Attachment1.Rotation.X),math.rad(alipos.Attachment1.Rotation.Y),math.rad(alipos.Attachment1.Rotation.Z)),1)
+						end
+					end)()
+				end
+			else
+				SCIFIMOVIELOL(v.Handle,CloneChar[v.Name].Handle,Vector3.new(0,0,0),Vector3.new(0,0,0))
+			end
+		end)()
+    end
+end
+
+local a = DeadChar.Torso
+local b = DeadChar.HumanoidRootPart
+local c = DeadChar.Humanoid
+a.Parent = game:FindFirstChildOfClass("Workspace")
+c.Parent = game:FindFirstChildOfClass("Workspace")
+local told = a:Clone()
+local told1 = c:Clone()
+b["RootJoint"].Part0 = told
+b["RootJoint"].Part1 = DeadChar.Head
+a.Name = "torso"
+a.Neck:Destroy()
+c.Name = "Cloned Avatar"
+told.Parent = DeadChar
+told1.Parent = DeadChar
+DeadChar.PrimaryPart = told
+told1.Health = 0
+b:Destroy()
+a.Parent = DeadChar
+c.Parent = DeadChar
+told:Destroy()
+told1:Destroy()
+a.Name = "Torso"
+
+if CloneChar.Head:FindFirstChildOfClass("Decal") then CloneChar.Head:FindFirstChildOfClass("Decal").Transparency = 1 end
+if DeadChar:FindFirstChild("Animate") then DeadChar:FindFirstChild("Animate"):Destroy() end
+
+local Collider
+function UnCollide()
+    if HumanDied then Collider:Disconnect(); return end
+    --[[for _,Parts in next, CloneChar:GetChildren() do
+        if Parts:IsA("BasePart") then
+            Parts.CanCollide = false 
+        end 
+    end]]
+    for _,Parts in next, DeadChar:GetChildren() do
+        if Parts:IsA("BasePart") then
+        Parts.CanCollide = false
+        end 
+    end 
+end
+Collider = game:GetService("RunService").Stepped:Connect(UnCollide)
+
+local resetBindable = Instance.new("BindableEvent")
+resetBindable.Event:connect(function()
+    game:GetService("StarterGui"):SetCore("ResetButtonCallback", true)
+	resetBindable:Destroy()
+	HumanDied = true
+    pcall(function()
+		game:FindFirstChildOfClass("Players").LocalPlayer.Character = DeadChar
+		DeadChar.Head:Destroy()
+		DeadChar:FindFirstChildOfClass("Humanoid"):Destroy()
+		game:FindFirstChildOfClass("Players").LocalPlayer.Character = CloneChar
+		if DeadChar:FindFirstChildOfClass("Folder") then DeadChar:FindFirstChildOfClass("Folder"):Destroy() end
+	end)
+end)
+game:GetService("StarterGui"):SetCore("ResetButtonCallback", resetBindable)
+
+coroutine.wrap(function()
+    while true do
+        game:GetService("RunService").RenderStepped:wait()
+        if not CloneChar or not CloneChar:FindFirstChild("Head") or not CloneChar:FindFirstChildOfClass("Humanoid") or CloneChar:FindFirstChildOfClass("Humanoid").Health <= 0 and not DeadChar or not DeadChar:FindFirstChild("Head") or not DeadChar:FindFirstChildOfClass("Humanoid") or DeadChar:FindFirstChildOfClass("Humanoid").Health <= 0 then 
+            HumanDied = true
+            pcall(function()
+				game:FindFirstChildOfClass("Players").LocalPlayer.Character = DeadChar
+				DeadChar.Head:Destroy()
+				DeadChar:FindFirstChildOfClass("Humanoid"):Destroy()
+				game:FindFirstChildOfClass("Players").LocalPlayer.Character = CloneChar
+				if DeadChar:FindFirstChildOfClass("Folder") then DeadChar:FindFirstChildOfClass("Folder"):Destroy() end
+			end)
+            if resetBindable then
+                game:GetService("StarterGui"):SetCore("ResetButtonCallback", true)
+                resetBindable:Destroy()
+            end
+            break
+        end		
+    end
+end)()
+
+
+SCIFIMOVIELOL(DeadChar["Head"],CloneChar["Head"])
+SCIFIMOVIELOL(DeadChar["Torso"],CloneChar["Torso"])
+SCIFIMOVIELOL(DeadChar["Left Arm"],CloneChar["Left Arm"])
+SCIFIMOVIELOL(DeadChar["Right Arm"],CloneChar["Right Arm"])
+SCIFIMOVIELOL(DeadChar["Left Leg"],CloneChar["Left Leg"])
+SCIFIMOVIELOL(DeadChar["Right Leg"],CloneChar["Right Leg"])
+
+for _,v in pairs(DeadChar:GetChildren()) do
+	if v:IsA("BasePart") and v.Name ~= "Head" then
+		--[[local bv = Instance.new("BodyVelocity",v)
+		bv.Velocity = Vector3.new(0,0,0)
+		coroutine.wrap(function()
+			while true do
+				game:GetService("RunService").RenderStepped:wait()
+				if HumanDied then break end
+				v.CFrame = CloneChar[v.Name].CFrame
+			end
+		end)()]]
+	elseif v:IsA("BasePart") and v.Name == "Head" then
+		local bv = Instance.new("BodyVelocity",v)
+		bv.Velocity = Vector3.new(0,0,0)
+		coroutine.wrap(function()
+			while true do
+				game:GetService("RunService").RenderStepped:wait()
+				if HumanDied then break end
+				v.CFrame = DeadChar.Torso.CFrame * CFrame.new(0,1.5,0)
+			end
+		end)()
+	end
+end
+
+for _,BodyParts in next, CloneChar:GetDescendants() do
+if BodyParts:IsA("BasePart") or BodyParts:IsA("Part") then
+BodyParts.Transparency = 1 end end
+game:GetService("RunService").RenderStepped:wait()
+game:FindFirstChildOfClass("Players").LocalPlayer.Character = CloneChar
+game:FindFirstChildOfClass("Workspace"):FindFirstChildOfClass("Camera").CameraSubject = CloneChar.Humanoid
+
+for _,v in next, DeadChar:GetChildren() do
+	if v:IsA("Accessory") then
+		if v.Handle:FindFirstChildOfClass("Weld") then v.Handle:FindFirstChildOfClass("Weld"):Destroy() end
+	end
+end
+
+if ANIMATIONHERE then ANIMATIONHERE.Parent = CloneChar end
+
+local Player = game:GetService('Players').LocalPlayer
+repeat wait() until Player.Character
+local Character = Player.Character
+
+TrailSettings = {
+	Lifetime = 0.5,
+	Texture = 'rbxassetid://31270182',
+	--Color1 is for UpperBody and Accessories, Color2 is for Lower Body
+	Color1 = ColorSequence.new(BrickColor.new('Toothpaste').Color,BrickColor.new('Royal purple').Color),
+	Color2 = ColorSequence.new(BrickColor.new('Institutional white').Color,BrickColor.new('Toothpaste').Color),
+	AllBody = true,
+	UpperBodyOnly = false,
+	LowerBodyOnly = false,
+	Accessories = false,
+	Extras = true,
+	R15 = false, --Change to true if you're using R15
+	R15Parts = {
+		'UpperTorso',
+		'LowerTorso',
+	}
+}
+
+local Trail; --Making other Trails uses this in this Script
+
+--UpperBody Function
+UpperBody = function()
+	if TrailSettings.R15 == false then
+		A0 = Instance.new('Attachment',Character.Torso)
+		A1 = Instance.new('Attachment',Character.Head)
+	A2 = Instance.new('Attachment',Character['Right Arm'])
+	A3 = Instance.new('Attachment',Character['Left Arm'])
+Trail = Instance.new('Trail',Character)
+Trail.Attachment0 = A0
+Trail.Attachment1 = A1
+Trail.Texture = TrailSettings.Texture
+Trail.Color = TrailSettings.Color1
+Trail.Lifetime = TrailSettings.Lifetime
+local Trail2 = Trail:Clone()
+Trail2.Parent = Character
+Trail2.Attachment1 = A2
+local Trail3 = Trail:Clone()
+Trail3.Parent = Character
+Trail3.Attachment1 = A3
+local Trail6 = Trail:Clone()
+Trail6.Parent = Character
+Trail6.Attachment0 = A1
+Trail6.Attachment1 = A2
+local Trail7 = Trail:Clone()
+Trail7.Parent = Character
+Trail7.Attachment0 = A1
+Trail7.Attachment1 = A3
+	else
+	A0 = Instance.new('Attachment',Character[TrailSettings.R15Parts[1]])
+	A0R = Instance.new('Attachment',Character[TrailSettings.R15Parts[2]])
+	A1 = Instance.new('Attachment',Character.Head)
+	A2 = Instance.new('Attachment',Character['RightUpperArm'])
+	A2R = Instance.new('Attachment',Character['RightLowerArm'])
+	A3 = Instance.new('Attachment',Character['LeftUpperArm'])
+	A3R = Instance.new('Attachment',Character['LeftLowerArm'])
+Trail = Instance.new('Trail',Character)
+Trail.Attachment0 = A0
+Trail.Attachment1 = A1
+Trail.Texture = TrailSettings.Texture
+Trail.Color = TrailSettings.Color1
+Trail.Lifetime = TrailSettings.Lifetime
+local Trail2 = Trail:Clone()
+Trail2.Parent = Character
+Trail2.Attachment1 = A2
+local Trail3 = Trail:Clone()
+Trail3.Parent = Character
+Trail3.Attachment1 = A3
+local Trail6 = Trail:Clone()
+Trail6.Parent = Character
+Trail6.Attachment0 = A1
+Trail6.Attachment1 = A2
+local Trail7 = Trail:Clone()
+Trail7.Parent = Character
+Trail7.Attachment0 = A1
+Trail7.Attachment1 = A3
+--R15 Trails
+local Trail1R = Trail:Clone()
+Trail1R.Parent = Character
+Trail1R.Attachment1 = A2R
+local Trail2R = Trail:Clone()
+Trail2R.Parent = Character
+Trail2R.Attachment1 = A3R
+local Trail6R = Trail:Clone()
+Trail6.Parent = Character
+Trail6.Attachment0 = A1
+Trail6.Attachment1 = A2R
+local Trail7R = Trail:Clone()
+Trail7.Parent = Character
+Trail7.Attachment0 = A1
+Trail7.Attachment1 = A3R
+end
+end
+
+--Lower Body Function
+LowerBody = function()
+	if TrailSettings.R15 == false then
+		A4 = Instance.new('Attachment',Character['Right Leg'])
+		A5 = Instance.new('Attachment',Character['Left Leg'])
+local Trail4 = Trail:Clone()
+Trail4.Parent = Character
+Trail4.Attachment1 = A4
+local Trail5 = Trail:Clone()
+Trail5.Parent = Character
+Trail5.Attachment1 = A5
+local Trail8 = Trail:Clone()
+Trail8.Parent = Character
+Trail8.Attachment0 = A2
+Trail8.Attachment1 = A4
+Trail8.Color = TrailSettings.Color2
+local Trail9 = Trail:Clone()
+Trail9.Parent = Character
+Trail9.Attachment0 = A3
+Trail9.Attachment1 = A5
+Trail9.Color = TrailSettings.Color2
+local FT = Trail:Clone()
+FT.Parent = Character
+FT.Attachment0 = A4
+FT.Attachment1 = A5
+FT.Color = TrailSettings.Color2
+else
+		A4 = Instance.new('Attachment',Character['RightLowerLeg'])
+		A4R = Instance.new('Attachment',Character['RightUpperLeg'])
+		A5 = Instance.new('Attachment',Character['LeftLowerLeg'])
+		A5R = Instance.new('Attachment',Character['LeftUpperLeg'])
+		local Trail4 = Trail:Clone()
+Trail4.Parent = Character
+Trail4.Attachment1 = A4
+local Trail5 = Trail:Clone()
+Trail5.Parent = Character
+Trail5.Attachment1 = A5
+local Trail8 = Trail:Clone()
+Trail8.Parent = Character
+Trail8.Attachment0 = A2
+Trail8.Attachment1 = A4
+Trail8.Color = TrailSettings.Color2
+local Trail9 = Trail:Clone()
+Trail9.Parent = Character
+Trail9.Attachment0 = A3
+Trail9.Attachment1 = A5
+Trail9.Color = TrailSettings.Color2
+local FT = Trail:Clone()
+FT.Parent = Character
+FT.Attachment0 = A4
+FT.Attachment1 = A5
+FT.Color = TrailSettings.Color2
+--R15 Trails
+local Trail3R = Trail:Clone()
+Trail3R.Parent = Character
+Trail3R.Attachment1 = A4R
+local Trail4R = Trail:Clone()
+Trail4R.Parent = Character
+Trail4R.Attachment1 = A5R
+local Trail8 = Trail:Clone()
+Trail8.Parent = Character
+Trail8.Attachment0 = A2R
+Trail8.Attachment1 = A4R
+Trail8.Color = TrailSettings.Color2
+local Trail9 = Trail:Clone()
+Trail9.Parent = Character
+Trail9.Attachment0 = A3R
+Trail9.Attachment1 = A5R
+Trail9.Color = TrailSettings.Color2
+local FT2R = Trail:Clone()
+FT2R.Parent = Character
+FT2R.Attachment0 = A4R
+FT2R.Attachment1 = A5R
+FT2R.Color = TrailSettings.Color2
+end
+end
+
+--All Body Function calling Both Functions
+AllBody = function()
+	UpperBody()
+	LowerBody()
+end
+
+--Checking to make sure that Only some Variables are Selected else do All Body
+if TrailSettings.AllBody == true and TrailSettings.UpperBodyOnly == true and TrailSettings.LowerBodyOnly == true then
+	TrailSettings.UpperBodyOnly = false
+	TrailSettings.LowerBodyOnly = false
+elseif TrailSettings.AllBody == true and TrailSettings.UpperBodyOnly == false and TrailSettings.LowerBodyOnly == true then
+	TrailSettings.UpperBodyOnly = false
+	TrailSettings.LowerBodyOnly = false
+elseif TrailSettings.AllBody == true and TrailSettings.UpperBodyOnly == true and TrailSettings.LowerBodyOnly == false then
+	TrailSettings.UpperBodyOnly = false
+	TrailSettings.LowerBodyOnly = false
+elseif TrailSettings.AllBody == false and TrailSettings.UpperBodyOnly == true and TrailSettings.LowerBodyOnly == true then
+	TrailSettings.AllBody = true
+	TrailSettings.UpperBodyOnly = false
+	TrailSettings.LowerBodyOnly = false
+end
+
+--Call Trail Functions
+if TrailSettings.UpperBodyOnly == true then
+	UpperBody()
+	print('Called Upper Body Trail')
+elseif TrailSettings.LowerBodyOnly == true then
+	LowerBody()
+	print('Called Lower Body Trail')
+elseif TrailSettings.AllBody == true then
+	AllBody()
+	print('Called Full Body Trail')
+end
+
+--Trails for Accessories
+if TrailSettings.Accessories == true then
+for Index,Item in pairs(Character:GetChildren()) do
+	if Item:IsA'Accessory' then
+		local AA = Instance.new('Attachment',Item.Handle)
+		local ATrail = Trail:Clone()
+		ATrail.Parent = Character
+		ATrail.Attachment1 = AA
+	end
+end
+end
+
+--Extras
+if TrailSettings.Extras == true then
+	--Making an Invisible Platform Part
+local a = Instance.new('Part',Character)
+a.CanCollide = false
+a.Size = Vector3.new(2,.2,2)
+a.Transparency = 1
+
+--Constantly putting it under your feet
+if TrailSettings.R15 == false then
+	spawn(function()
+	game:GetService('RunService').RenderStepped:connect(function()
+		a.CFrame = Character.Torso.CFrame * CFrame.new(0,-3,0)
+	end)
+end)
+else
+	spawn(function()
+	game:GetService('RunService').RenderStepped:connect(function()
+		a.CFrame = Character[TrailSettings.R15Parts[2]].CFrame * CFrame.new(0,-2,0)
+	end)
+end)
+end
+
+--Make a Trail from both feet to the Platform
+spawn(function()
+	repeat wait() until Trail
+local AB = Instance.new('Attachment',a)
+local ABT = Trail:Clone()
+ABT.Parent = Character
+ABT.Attachment0 = A4
+ABT.Attachment1 = AB
+ABT.Color = TrailSettings.Color2
+local ABT2 = Trail:Clone()
+ABT2.Parent = Character
+ABT2.Attachment0 = A5
+ABT2.Attachment1 = AB
+ABT2.Color = TrailSettings.Color2
+end)
+end
+wait(math.randomseed(tick()))
+  local plr = game.Players.LocalPlayer
+  ch = plr.Character
+  local tor = ch.Torso
+  local head = ch.Head
+  local ra = ch["Right Arm"]
+  local la = ch["Left Arm"]
+  local rl = ch["Right Leg"]
+  local ll = ch["Left Leg"]
+  local rj = ch.HumanoidRootPart.RootJoint
+  local neck = tor.Neck
+  local rm = Instance.new("Weld", tor)
+  rm.C1 = CFrame.new(0, 0.5, 0)
+  rm.C0 = CFrame.new(1.5, 0.5, 0)
+  rm.Part0 = tor
+  rm.Part1 = ra
+  local lm = Instance.new("Weld", tor)
+  lm.C1 = CFrame.new(0, 0.5, 0)
+  lm.C0 = CFrame.new(-1.5, 0.5, 0)
+  lm.Part0 = tor
+  lm.Part1 = la
+  local rlm = Instance.new("Weld", tor)
+  rlm.C1 = CFrame.new(0, 1, 0)
+  rlm.C0 = CFrame.new(0.5, -1, 0)
+  rlm.Part0 = tor
+  rlm.Part1 = rl
+  local llm = Instance.new("Weld", tor)
+  llm.C1 = CFrame.new(0, 1, 0)
+  llm.C0 = CFrame.new(-0.5, -1, 0)
+  llm.Part0 = tor
+  llm.Part1 = ll
+  local hum = ch.Humanoid
+  for i, v in pairs(head:GetChildren()) do
+    if v.ClassName == "Sound" then
+      v:Destroy()
+    end
+  end
+  rj.C0 = CFrame.new()
+  rj.C1 = CFrame.new()
+  tor["Right Shoulder"]:Destroy()
+  tor["Left Shoulder"]:Destroy()
+  tor["Right Hip"]:Destroy()
+  tor["Left Hip"]:Destroy()
+  neck.C0 = CFrame.new(0, 1, 0)
+  neck.C1 = CFrame.new(0, -0.5, 0)
+  rmC0 = rm.C0
+  rmC1 = rm.C1
+  lmC0 = lm.C0
+  lmC1 = lm.C1
+  nC0 = neck.C0
+  nC1 = neck.C1
+  rjC0 = rj.C0
+  rjC1 = rj.C1
+  rlmC0 = rlm.C0
+  rlmC1 = rlm.C1
+  llmC0 = llm.C0
+  llmC1 = llm.C1
+  local defWS = 25
+  local defJP = 75
+  hum.WalkSpeed = defWS
+  hum.JumpPower = defJP
+  ch:WaitForChild("Animate"):Destroy()
+  hum:WaitForChild("Animator"):Destroy()
+  local mo = plr:GetMouse()
+  local cam = workspace.CurrentCamera
+
+  local mainGui = Instance.new("ScreenGui", plr.PlayerGui)
+  mainGui.Name = "OptionsGui"
+  local VanishLabel = Instance.new("TextLabel", mainGui)
+  VanishLabel.Name = "fly1"
+  VanishLabel.BackgroundTransparency = 0.45
+  VanishLabel.BackgroundColor3 = Color3.new(0.3, 0.3, 0.3)
+  VanishLabel.BorderSizePixel = 0
+  VanishLabel.Size = UDim2.new(0, 145, 0, 40)
+  VanishLabel.Position = UDim2.new(0, -144, 0.5, -41)
+  VanishLabel.Text = "Sonic remade xd"
+  VanishLabel.Font = Enum.Font.SourceSansLight
+  VanishLabel.FontSize = Enum.FontSize.Size24
+  VanishLabel.TextColor3 = Color3.new(1, 1, 1)
+  VanishLabel.TextStrokeTransparency = 0
+  VanishLabel:TweenPosition(UDim2.new(0, 1, 0.5, -41), "Out", "Bounce", 1, false, nil)
+  local anim = {
+    idle = {priority = 1},
+    walk = {priority = 1},
+    descend = {priority = 2},
+    jump = {priority = 3},
+    hoodon = {priority = 4},
+    hoodoff = {priority = 4}
+  }
+  local lastAnim
+  local lastPriority = 0
+  local speed
+  local doingMove = false
+  local hoodison = false
+  function swait(num)
+    if num == 0 or num == nil then
+      game:service("RunService").RenderStepped:wait()
+    else
+      for i = 0, num do
+        game:service("RunService").RenderStepped:wait()
+      end
+    end
+  end
+  function sound(id, vol, pitch, parent)
+    local s = Instance.new("Sound", parent)
+    s.SoundId = "http://www.roblox.com/asset/?id=" .. id .. ""
+    s.Volume = vol
+    s.Pitch = pitch
+    game.Debris:AddItem(s, 10)
+    s:play()
+    return s
+  end
+  function randomFootstep()
+    local x = math.random(855, 1155)
+    sound(157174024, 2, x / 1000, tor)
+  end
+  function removeDecals(p)
+    for i, v in pairs(p:GetChildren()) do
+      if v.ClassName == "Decal" then
+        v:Destroy()
+      end
+    end
+  end
+  local EP = Instance.new("Model", ch)
+  EP.Name = "ExtraParts"
+  function vignette(parent, col, mat, loop)
+    for i, v in pairs(parent:GetChildren()) do
+      if v:IsA("BasePart") and v ~= hood then
+        do
+          local c = v:clone()
+          c.Parent = EP
+          c.Anchored = true
+          c.CanCollide = false
+          c.Material = mat
+          c.BrickColor = col
+          c:BreakJoints()
+          removeDecals(c)
+          coroutine.resume(coroutine.create(function()
+            for i = 1, loop do
+              c.Transparency = i / loop
+              swait()
+            end
+            c:Destroy()
+          end))
+        end
+      end
+    end
+  end
+  function doBrick(parent, pos, cf, size, colour, material, transparency, a, cc, bs, bts, fs, ls, rs, ts)
+    local p = Instance.new("Part", parent)
+    p.BrickColor = colour
+    p.Material = material
+    p.Transparency = transparency
+    p.Anchored = a
+    p.CanCollide = cc
+    p.FormFactor = "Custom"
+    p.Size = size
+    p.BackSurface = bs
+    p.BottomSurface = bts
+    p.FrontSurface = fs
+    p.LeftSurface = ls
+    p.RightSurface = rs
+    p.TopSurface = ts
+    p.Position = pos
+    p.CFrame = p.CFrame * cf
+    return p
+  end
+  function doMesh(parent, meshType, meshId, scale)
+    local m = Instance.new("SpecialMesh", parent)
+    m.MeshType = meshType
+    m.MeshId = meshId
+    m.Scale = scale
+    return m
+  end
+  function magicBrick(pos, cf, size, colour, material, transparency, a, cc, bs, bts, fs, ls, rs, ts, meshType, meshId, scale, scaleAdd, loop, loopTransparency, repeatloop, repeatLoopWait, loopCFrame)
+    local cw1 = coroutine.wrap(function()
+      for i = 1, repeatloop do
+        do
+          local x = doBrick(EP, pos, cf, size, colour, material, transparency, a, cc, bs, bts, fs, ls, rs, ts)
+          local z = doMesh(x, meshType, meshId, scale)
+          local cw2 = coroutine.wrap(function()
+            for i = 1, loop do
+              if loopTransparency then
+                x.Transparency = i / loop
+                z.Scale = z.Scale + scaleAdd
+                x.CFrame = x.CFrame * loopCFrame
+                wait()
+              else
+                z.Scale = z.Scale + scaleAdd
+                x.CFrame = x.CFrame * loopCFrame
+              end
+            end
+            x:Destroy()
+          end)
+          coroutine.resume(coroutine.create(function()
+            for i = 1, repeatloop do
+              cw2()
+              swait(repeatLoopWait)
+            end
+          end))
+        end
+      end
+    end)
+    cw1()
+  end
+  function animate(x)
+    local calledAnim = anim[x]
+    if calledAnim == lastAnim then
+      return
+    end
+    if calledAnim.priority >= lastPriority and calledAnim ~= lastAnim then
+      lastAnim = calledAnim
+      lastPriority = lastAnim.priority
+      if calledAnim == anim.idle then
+        local thisAnim = calledAnim
+        speed = 0.25
+        for i = 0, 0.25, 0.1 * speed do
+          if lastAnim ~= thisAnim then
+            break
+          end
+          rm.C0 = rm.C0:lerp(rmC0 * CFrame.Angles(math.rad(12), math.rad(13), math.rad(15)), speed)
+          lm.C0 = lm.C0:lerp(lmC0 * CFrame.Angles(math.rad(14), math.rad(-13), math.rad(-15)), speed)
+          rlm.C0 = rlm.C0:lerp(rlmC0 * CFrame.Angles(math.rad(-13), math.rad(-45), math.rad(0)), speed)
+          llm.C0 = llm.C0:lerp(llmC0 * CFrame.Angles(math.rad(13), math.rad(-45), math.rad(0)), speed)
+          rj.C0 = rj.C0:lerp(rjC0 * CFrame.Angles(math.rad(0), math.rad(45), math.rad(0)), speed)
+          neck.C0 = neck.C0:lerp(nC0 * CFrame.Angles(math.rad(-13), math.rad(-45), math.rad(0)), speed)
+          rm.C1 = rm.C1:lerp(rmC1 * CFrame.new(0, 0, 0.15), speed)
+          lm.C1 = lm.C1:lerp(lmC1 * CFrame.new(0, 0, 0.15), speed)
+          rlm.C1 = rlm.C1:lerp(rlmC1 * CFrame.new(-0.05, -0.4, 0.2), speed)
+          llm.C1 = llm.C1:lerp(llmC1 * CFrame.new(0.15, -0.35, 0.2), speed)
+          rj.C1 = rj.C1:lerp(rjC1 * CFrame.new(0, 0.4, 0), speed)
+          neck.C1 = neck.C1:lerp(nC1 * CFrame.new(0, 0, 0), speed)
+          if hoodison then
+            hoodW.C0 = hoodW.C0:lerp(hoodC0 * CFrame.Angles(math.rad(-80), 0, 0), speed)
+            hoodW.C1 = hoodW.C1:lerp(hoodC1 * CFrame.new(0, -0.67, -0.45), speed)
+          end
+          swait()
+        end
+        while true do
+          if lastAnim ~= thisAnim then
+            break
+          end
+          for i = 0, 0.8, 0.1 * speed do
+            if lastAnim ~= thisAnim then
+              break
+            end
+            rm.C0 = rm.C0:lerp(rmC0 * CFrame.Angles(math.rad(12), math.rad(13), math.rad(8)), i * speed)
+            lm.C0 = lm.C0:lerp(lmC0 * CFrame.Angles(math.rad(14), math.rad(-13), math.rad(-8)), i * speed)
+            rlm.C0 = rlm.C0:lerp(rlmC0 * CFrame.Angles(math.rad(-13), math.rad(-45), math.rad(0)), i * speed)
+            llm.C0 = llm.C0:lerp(llmC0 * CFrame.Angles(math.rad(13), math.rad(-45), math.rad(0)), i * speed)
+            rj.C0 = rj.C0:lerp(rjC0 * CFrame.Angles(math.rad(0), math.rad(45), math.rad(0)), i * speed)
+            neck.C0 = neck.C0:lerp(nC0 * CFrame.Angles(math.rad(0), math.rad(-45), math.rad(0)), i * speed)
+            rm.C1 = rm.C1:lerp(rmC1 * CFrame.new(0, 0, 0.15), i * speed)
+            lm.C1 = lm.C1:lerp(lmC1 * CFrame.new(0, 0, 0.15), i * speed)
+            rlm.C1 = rlm.C1:lerp(rlmC1 * CFrame.new(-0.05, -0.2, 0.2), i * speed)
+            llm.C1 = llm.C1:lerp(llmC1 * CFrame.new(0.15, -0.2, 0.2), i * speed)
+            rj.C1 = rj.C1:lerp(rjC1 * CFrame.new(0, 0.2, 0), i * speed)
+            neck.C1 = neck.C1:lerp(nC1 * CFrame.new(0, 0, 0), i * speed)
+            if hoodison then
+              hoodW.C0 = hoodW.C0:lerp(hoodC0 * CFrame.Angles(math.rad(-80), 0, 0), speed)
+              hoodW.C1 = hoodW.C1:lerp(hoodC1 * CFrame.new(0, -0.67, -0.45), speed)
+            end
+            swait()
+          end
+          for i = 0, 0.8, 0.1 * speed do
+            if lastAnim ~= thisAnim then
+              break
+            end
+            rm.C0 = rm.C0:lerp(rmC0 * CFrame.Angles(math.rad(12), math.rad(13), math.rad(15)), i * speed)
+            lm.C0 = lm.C0:lerp(lmC0 * CFrame.Angles(math.rad(14), math.rad(-13), math.rad(-15)), i * speed)
+            rlm.C0 = rlm.C0:lerp(rlmC0 * CFrame.Angles(math.rad(-13), math.rad(-45), math.rad(0)), i * speed)
+            llm.C0 = llm.C0:lerp(llmC0 * CFrame.Angles(math.rad(13), math.rad(-45), math.rad(0)), i * speed)
+            rj.C0 = rj.C0:lerp(rjC0 * CFrame.Angles(math.rad(0), math.rad(45), math.rad(0)), i * speed)
+            neck.C0 = neck.C0:lerp(nC0 * CFrame.Angles(math.rad(-13), math.rad(-45), math.rad(0)), i * speed)
+            rm.C1 = rm.C1:lerp(rmC1 * CFrame.new(0, 0, 0.15), i * speed)
+            lm.C1 = lm.C1:lerp(lmC1 * CFrame.new(0, 0, 0.15), i * speed)
+            rlm.C1 = rlm.C1:lerp(rlmC1 * CFrame.new(-0.05, -0.4, 0.2), i * speed)
+            llm.C1 = llm.C1:lerp(llmC1 * CFrame.new(0.15, -0.35, 0.2), i * speed)
+            rj.C1 = rj.C1:lerp(rjC1 * CFrame.new(0, 0.4, 0), i * speed)
+            neck.C1 = neck.C1:lerp(nC1 * CFrame.new(0, 0, 0), i * speed)
+            if hoodison then
+              hoodW.C0 = hoodW.C0:lerp(hoodC0 * CFrame.Angles(math.rad(-80), 0, 0), speed)
+              hoodW.C1 = hoodW.C1:lerp(hoodC1 * CFrame.new(0, -0.67, -0.45), speed)
+            end
+            swait()
+          end
+        end
+      end
+      if calledAnim == anim.walk then
+        local thisAnim = calledAnim
+        speed = 0.45
+        while true do
+          if lastAnim ~= thisAnim then
+            break
+          end
+          for i = 0, 0.8, 0.1 * speed do
+            if lastAnim ~= thisAnim then
+              break
+            end
+            rm.C0 = rm.C0:lerp(rmC0 * CFrame.Angles(math.rad(-24), math.rad(13), math.rad(8)), 0.2)
+            lm.C0 = lm.C0:lerp(lmC0 * CFrame.Angles(math.rad(-24), math.rad(-13), math.rad(-8)), 0.2)
+            rlm.C0 = rlm.C0:lerp(rlmC0 * CFrame.Angles(math.rad(65 + tor.RotVelocity.Y / 20), math.rad(0), -tor.RotVelocity.Y / 10), i * speed)
+            llm.C0 = llm.C0:lerp(llmC0 * CFrame.Angles(math.rad(-45), math.rad(0), -tor.RotVelocity.Y / 10), i * speed)
+            rj.C0 = rj.C0:lerp(rjC0 * CFrame.Angles(math.rad(-45), -tor.RotVelocity.Y / 10, math.rad(0)), i * speed)
+            neck.C0 = neck.C0:lerp(nC0 * CFrame.Angles(math.rad(35), math.rad(0), -tor.RotVelocity.Y / 20), i * speed)
+            rm.C1 = rm.C1:lerp(rmC1 * CFrame.new(0, 0, 0), i * speed)
+            lm.C1 = lm.C1:lerp(lmC1 * CFrame.new(0, 0, 0), i * speed)
+            rlm.C1 = rlm.C1:lerp(rlmC1 * CFrame.new(-0.05, 0.4, 0), i * speed)
+            llm.C1 = llm.C1:lerp(llmC1 * CFrame.new(0.05, 0, 0), i * speed)
+            rj.C1 = rj.C1:lerp(rjC1 * CFrame.new(0, 0, 0), i * speed)
+            neck.C1 = neck.C1:lerp(nC1 * CFrame.new(0, 0, 0), i * speed)
+            if hoodison then
+              hoodW.C0 = hoodW.C0:lerp(hoodC0 * CFrame.Angles(math.rad(-65), 0, 0), speed)
+              hoodW.C1 = hoodW.C1:lerp(hoodC1 * CFrame.new(0, -0.67, -0.3), speed)
+            end
+            swait()
+          end
+          randomFootstep()
+          for i = 0, 0.8, 0.1 * speed do
+            if lastAnim ~= thisAnim then
+              break
+            end
+            rm.C0 = rm.C0:lerp(rmC0 * CFrame.Angles(math.rad(-24), math.rad(13), math.rad(8)), 0.2)
+            lm.C0 = lm.C0:lerp(lmC0 * CFrame.Angles(math.rad(-24), math.rad(-13), math.rad(-8)), 0.2)
+            rlm.C0 = rlm.C0:lerp(rlmC0 * CFrame.Angles(math.rad(-45), math.rad(0), -tor.RotVelocity.Y / 10), i * speed)
+            llm.C0 = llm.C0:lerp(llmC0 * CFrame.Angles(math.rad(65 + tor.RotVelocity.Y / 20), math.rad(0), -tor.RotVelocity.Y / 10), i * speed)
+            rj.C0 = rj.C0:lerp(rjC0 * CFrame.Angles(math.rad(-45), -tor.RotVelocity.Y / 10, math.rad(0)), i * speed)
+            neck.C0 = neck.C0:lerp(nC0 * CFrame.Angles(math.rad(35), math.rad(0), -tor.RotVelocity.Y / 20), i * speed)
+            rm.C1 = rm.C1:lerp(rmC1 * CFrame.new(0, 0, 0), i * speed)
+            lm.C1 = lm.C1:lerp(lmC1 * CFrame.new(0, 0, 0), i * speed)
+            rlm.C1 = rlm.C1:lerp(rlmC1 * CFrame.new(-0.05, 0, 0), i * speed)
+            llm.C1 = llm.C1:lerp(llmC1 * CFrame.new(0.05, 0.4, 0), i * speed)
+            rj.C1 = rj.C1:lerp(rjC1 * CFrame.new(0, 0, 0), i * speed)
+            neck.C1 = neck.C1:lerp(nC1 * CFrame.new(0, 0, 0), i * speed)
+            if hoodison then
+              hoodW.C0 = hoodW.C0:lerp(hoodC0 * CFrame.Angles(math.rad(-65), 0, 0), speed)
+              hoodW.C1 = hoodW.C1:lerp(hoodC1 * CFrame.new(0, -0.67, -0.3), speed)
+            end
+            swait()
+          end
+          randomFootstep()
+        end
+      end
+      if calledAnim == anim.jump then
+        local thisAnim = calledAnim
+        speed = 0.15
+        for i = 0, 0.25, 0.1 * speed do
+          if lastAnim ~= thisAnim then
+            break
+          end
+          rm.C0 = rm.C0:lerp(rmC0 * CFrame.Angles(math.rad(24), math.rad(13), math.rad(15)), speed)
+          lm.C0 = lm.C0:lerp(lmC0 * CFrame.Angles(math.rad(24), math.rad(-13), math.rad(-15)), speed)
+          rlm.C0 = rlm.C0:lerp(rlmC0 * CFrame.Angles(math.rad(-15), math.rad(0), math.rad(0)), speed)
+          llm.C0 = llm.C0:lerp(llmC0 * CFrame.Angles(math.rad(-15), math.rad(0), math.rad(0)), speed)
+          rj.C0 = rj.C0:lerp(rjC0 * CFrame.Angles(math.rad(0), math.rad(0), math.rad(0)), speed)
+          neck.C0 = neck.C0:lerp(nC0 * CFrame.Angles(math.rad(-13), math.rad(0), math.rad(0)), speed)
+          rm.C1 = rm.C1:lerp(rmC1 * CFrame.new(0, 0, 0.25), speed)
+          lm.C1 = lm.C1:lerp(lmC1 * CFrame.new(0, 0, 0.25), speed)
+          rlm.C1 = rlm.C1:lerp(rlmC1 * CFrame.new(-0.05, -0.4, 0.2), speed)
+          llm.C1 = llm.C1:lerp(llmC1 * CFrame.new(0.05, -0.4, 0.2), speed)
+          rj.C1 = rj.C1:lerp(rjC1 * CFrame.new(0, 0, 0), speed)
+          neck.C1 = neck.C1:lerp(nC1 * CFrame.new(0, 0, 0), speed)
+          swait()
+        end
+        lastAnim = nil
+        lastPriority = 0
+      end
+      if calledAnim == anim.descend then
+        local thisAnim = calledAnim
+        speed = 0.15
+        for i = 0, 0.25, 0.1 * speed do
+          if lastAnim ~= thisAnim then
+            break
+          end
+          rm.C0 = rm.C0:lerp(rmC0 * CFrame.Angles(math.rad(45), math.rad(13), math.rad(15)), speed)
+          lm.C0 = lm.C0:lerp(lmC0 * CFrame.Angles(math.rad(45), math.rad(-13), math.rad(-15)), speed)
+          rlm.C0 = rlm.C0:lerp(rlmC0 * CFrame.Angles(math.rad(-15), math.rad(0), math.rad(0)), speed)
+          llm.C0 = llm.C0:lerp(llmC0 * CFrame.Angles(math.rad(-15), math.rad(0), math.rad(0)), speed)
+          rj.C0 = rj.C0:lerp(rjC0 * CFrame.Angles(math.rad(25), math.rad(0), math.rad(0)), speed)
+          neck.C0 = neck.C0:lerp(nC0 * CFrame.Angles(math.rad(-24), math.rad(0), math.rad(0)), speed)
+          rm.C1 = rm.C1:lerp(rmC1 * CFrame.new(0, 0, 0.25), speed)
+          lm.C1 = lm.C1:lerp(lmC1 * CFrame.new(0, 0, 0.25), speed)
+          rlm.C1 = rlm.C1:lerp(rlmC1 * CFrame.new(-0.05, -0.4, 0.2), speed)
+          llm.C1 = llm.C1:lerp(llmC1 * CFrame.new(0.05, -0.4, 0.2), speed)
+          rj.C1 = rj.C1:lerp(rjC1 * CFrame.new(0, 0, 0), speed)
+          neck.C1 = neck.C1:lerp(nC1 * CFrame.new(0, 0, 0), speed)
+          swait()
+        end
+        lastAnim = nil
+        lastPriority = 0
+      end
+      if calledAnim == anim.hoodon then
+        local thisAnim = calledAnim
+        speed = 0.15
+        for i = 0, 0.25, 0.1 * speed do
+          if lastAnim ~= thisAnim then
+            break
+          end
+          rm.C0 = rm.C0:lerp(rmC0 * CFrame.Angles(math.rad(-110), math.rad(0), math.rad(-45)), speed)
+          lm.C0 = lm.C0:lerp(lmC0 * CFrame.Angles(math.rad(0), math.rad(0), math.rad(-8)), speed)
+          rlm.C0 = rlm.C0:lerp(rlmC0 * CFrame.Angles(math.rad(0), math.rad(0), math.rad(0)), speed)
+          llm.C0 = llm.C0:lerp(llmC0 * CFrame.Angles(math.rad(0), math.rad(0), math.rad(0)), speed)
+          rj.C0 = rj.C0:lerp(rjC0 * CFrame.Angles(math.rad(0), math.rad(0), math.rad(0)), speed)
+          neck.C0 = neck.C0:lerp(nC0 * CFrame.Angles(math.rad(0), math.rad(0), math.rad(0)), speed)
+          rm.C1 = rm.C1:lerp(rmC1 * CFrame.new(0, 0.2, 0), speed)
+          lm.C1 = lm.C1:lerp(lmC1 * CFrame.new(0, 0, 0), speed)
+          rlm.C1 = rlm.C1:lerp(rlmC1 * CFrame.new(0, 0, 0), speed)
+          llm.C1 = llm.C1:lerp(llmC1 * CFrame.new(0, 0, 0), speed)
+          rj.C1 = rj.C1:lerp(rjC1 * CFrame.new(0, 0, 0), speed)
+          neck.C1 = neck.C1:lerp(nC1 * CFrame.new(0, 0, 0), speed)
+          swait()
+        end
+        sound(152206206, 1, 1, hood)
+        sound(588735155, 1, 1, hood)
+        magicBrick(Vector3.new(0, 0, 0), tor.CFrame, Vector3.new(1, 1, 1), BrickColor.new("Really black"), "Neon", 0, true, false, 10, 10, 10, 10, 10, 10, "Sphere", "", Vector3.new(2, 2, 2), Vector3.new(0.25, 0.8, 0.25), 14, true, 1, 0, CFrame.new(0, 0, 0))
+        magicBrick(Vector3.new(0, 0, 0), tor.CFrame, Vector3.new(1, 1, 1), BrickColor.new("Black"), "Neon", 0, true, false, 10, 10, 10, 10, 10, 10, "Sphere", "", Vector3.new(2, 1, 2), Vector3.new(1, 2, 1), 14, true, 1, 0, CFrame.new(0, 0, 0))
+        for i = 0, 0.25, 0.1 * speed do
+          if lastAnim ~= thisAnim then
+            break
+          end
+          rm.C0 = rm.C0:lerp(rmC0 * CFrame.Angles(math.rad(90), math.rad(0), math.rad(-25)), speed)
+          lm.C0 = lm.C0:lerp(lmC0 * CFrame.Angles(math.rad(-12), math.rad(0), math.rad(-16)), speed)
+          rlm.C0 = rlm.C0:lerp(rlmC0 * CFrame.Angles(math.rad(0), math.rad(0), math.rad(0)), speed)
+          llm.C0 = llm.C0:lerp(llmC0 * CFrame.Angles(math.rad(0), math.rad(0), math.rad(0)), speed)
+          rj.C0 = rj.C0:lerp(rjC0 * CFrame.Angles(math.rad(0), math.rad(0), math.rad(0)), speed)
+          neck.C0 = neck.C0:lerp(nC0 * CFrame.Angles(math.rad(0), math.rad(0), math.rad(0)), speed)
+          rm.C1 = rm.C1:lerp(rmC1 * CFrame.new(0, 0.2, 0), speed)
+          lm.C1 = lm.C1:lerp(lmC1 * CFrame.new(0, 0, 0), speed)
+          rlm.C1 = rlm.C1:lerp(rlmC1 * CFrame.new(0, 0, 0), speed)
+          llm.C1 = llm.C1:lerp(llmC1 * CFrame.new(0, 0, 0), speed)
+          rj.C1 = rj.C1:lerp(rjC1 * CFrame.new(0, 0, 0), speed)
+          neck.C1 = neck.C1:lerp(nC1 * CFrame.new(0, 0, 0), speed)
+          hoodW.C0 = hoodW.C0:lerp(hoodC0 * CFrame.Angles(math.rad(-80), 0, 0), speed)
+          hoodW.C1 = hoodW.C1:lerp(hoodC1 * CFrame.new(0, -0.67, -0.45), speed)
+          hoodM.Scale = hoodM.Scale:lerp(hoodScale + Vector3.new(0.15, 0, 0), speed)
+          swait()
+        end
+        lastAnim = nil
+        lastPriority = 0
+      end
+      if calledAnim == anim.hoodoff then
+        local thisAnim = calledAnim
+        speed = 0.15
+        for i = 0, 0.25, 0.1 * speed do
+          if lastAnim ~= thisAnim then
+            break
+          end
+          rm.C0 = rm.C0:lerp(rmC0 * CFrame.Angles(math.rad(190), math.rad(0), math.rad(-45)), speed)
+          lm.C0 = lm.C0:lerp(lmC0 * CFrame.Angles(math.rad(0), math.rad(0), math.rad(-8)), speed)
+          rlm.C0 = rlm.C0:lerp(rlmC0 * CFrame.Angles(math.rad(0), math.rad(0), math.rad(0)), speed)
+          llm.C0 = llm.C0:lerp(llmC0 * CFrame.Angles(math.rad(0), math.rad(0), math.rad(0)), speed)
+          rj.C0 = rj.C0:lerp(rjC0 * CFrame.Angles(math.rad(0), math.rad(0), math.rad(0)), speed)
+          neck.C0 = neck.C0:lerp(nC0 * CFrame.Angles(math.rad(0), math.rad(0), math.rad(0)), speed)
+          rm.C1 = rm.C1:lerp(rmC1 * CFrame.new(0, 0.2, 0), speed)
+          lm.C1 = lm.C1:lerp(lmC1 * CFrame.new(0, 0, 0), speed)
+          rlm.C1 = rlm.C1:lerp(rlmC1 * CFrame.new(0, 0, 0), speed)
+          llm.C1 = llm.C1:lerp(llmC1 * CFrame.new(0, 0, 0), speed)
+          rj.C1 = rj.C1:lerp(rjC1 * CFrame.new(0, 0, 0), speed)
+          neck.C1 = neck.C1:lerp(nC1 * CFrame.new(0, 0, 0), speed)
+          swait()
+        end
+        sound(152206246, 1, 1, hood)
+        for i = 0, 0.25, 0.1 * speed do
+          if lastAnim ~= thisAnim then
+            break
+          end
+          rm.C0 = rm.C0:lerp(rmC0 * CFrame.Angles(math.rad(-12), math.rad(0), math.rad(-25)), speed)
+          lm.C0 = lm.C0:lerp(lmC0 * CFrame.Angles(math.rad(-12), math.rad(0), math.rad(-16)), speed)
+          rlm.C0 = rlm.C0:lerp(rlmC0 * CFrame.Angles(math.rad(0), math.rad(0), math.rad(0)), speed)
+          llm.C0 = llm.C0:lerp(llmC0 * CFrame.Angles(math.rad(0), math.rad(0), math.rad(0)), speed)
+          rj.C0 = rj.C0:lerp(rjC0 * CFrame.Angles(math.rad(0), math.rad(0), math.rad(0)), speed)
+          neck.C0 = neck.C0:lerp(nC0 * CFrame.Angles(math.rad(0), math.rad(0), math.rad(0)), speed)
+          rm.C1 = rm.C1:lerp(rmC1 * CFrame.new(0, 0.2, 0), speed)
+          lm.C1 = lm.C1:lerp(lmC1 * CFrame.new(0, 0, 0), speed)
+          rlm.C1 = rlm.C1:lerp(rlmC1 * CFrame.new(0, 0, 0), speed)
+          llm.C1 = llm.C1:lerp(llmC1 * CFrame.new(0, 0, 0), speed)
+          rj.C1 = rj.C1:lerp(rjC1 * CFrame.new(0, 0, 0), speed)
+          neck.C1 = neck.C1:lerp(nC1 * CFrame.new(0, 0, 0), speed)
+          hoodW.C0 = hoodW.C0:lerp(hoodC0 * CFrame.Angles(0, 0, 0), speed)
+          hoodW.C1 = hoodW.C1:lerp(hoodC1 * CFrame.new(0, 0, 0), speed)
+          hoodM.Scale = hoodM.Scale:lerp(hoodScale + Vector3.new(0, 0, 0), speed)
+          swait()
+        end
+        lastAnim = nil
+        lastPriority = 0
+      end
+    end
+  end
+  local vanished = false
+  function vanish()
+    head.face.Texture = ""
+    hum.WalkSpeed = defWS * 2
+    for i, v in pairs(ch:GetChildren()) do
+      if v:IsA("BasePart") then
+        coroutine.resume(coroutine.create(function()
+          for i = 1, 40 do
+            v.Transparency = v.Transparency + 0.025
+            swait()
+          end
+        end))
+      end
+    end
+    for i, v in pairs(daggerModel:GetChildren()) do
+      if v:IsA("BasePart") then
+        coroutine.resume(coroutine.create(function()
+          for i = 1, 40 do
+            v.Transparency = v.Transparency + 0.025
+            swait()
+          end
+        end))
+      end
+    end
+  end
+  function unvanish()
+    head.face.Texture = "http://www.roblox.com/asset/?id=144080495"
+    hum.WalkSpeed = defWS
+    for i, v in pairs(ch:GetChildren()) do
+      if v:IsA("BasePart") then
+        coroutine.resume(coroutine.create(function()
+          for i = 1, 40 do
+            v.Transparency = v.Transparency - 0.025
+            swait()
+          end
+        end))
+      end
+    end
+    for i, v in pairs(daggerModel:GetChildren()) do
+      if v:IsA("BasePart") then
+        coroutine.resume(coroutine.create(function()
+          for i = 1, 40 do
+            v.Transparency = v.Transparency - 0.025
+            swait()
+          end
+        end))
+      end
+    end
+  end
+  local daggerEquipped = false
+  function hoodOn()
+    if not doingMove then
+      doingMove = true
+      hoodison = true
+      animate("hoodon")
+      doingMove = false
+    end
+  end
+  function hoodOff()
+    if not doingMove then
+      doingMove = true
+      hoodison = false
+      animate("hoodoff")
+      doingMove = false
+    end
+  end
+  mo.KeyDown:connect(function(key)
+    if key == "f" then
+      if hoodison then
+        if vanished then
+          vanished = false
+          unvanish()
+        end
+        hoodOff()
+      elseif not hoodison then
+        if not vanished then
+          vanished = true
+          vanish()
+        end
+        hoodOn()
+      end
+    end
+    if key == "g" then
+      if not daggerEquipped then
+        daggerEquipped = true
+        daggertoRA()
+      elseif daggerEquipped then
+        daggerEquipped = false
+        daggertotorso()
+      end
+    end
+  end)
+  coroutine.resume(coroutine.create(function()
+    game:GetService("RunService").RenderStepped:connect(function()
+      if hum.Jump then
+        animate("jump")
+      end
+      if Vector3.new(tor.Velocity.X, 0, tor.Velocity.Z).magnitude < 2.5 and hum:GetState() ~= Enum.HumanoidStateType.Freefall then
+        animate("idle")
+      end
+      if Vector3.new(tor.Velocity.X, 0, tor.Velocity.Z).magnitude >= 2.5 and hum:GetState() ~= Enum.HumanoidStateType.Freefall then
+        animate("walk")
+      end
+      if Vector3.new(0, tor.Velocity.Y, 0).magnitude >= 5 and hum:GetState() == Enum.HumanoidStateType.Freefall then
+        animate("descend")
+      end
+    end)
+  end))
+  coroutine.resume(coroutine.create(function()
+    while swait(10) do
+      if hoodison then
+        vignette(ch, BrickColor.new("Black"), "Neon", 15)
+      end
+    end
+  end))
+Sound = Instance.new("Sound")
+Sound.Volume = 1
+Sound.Parent = game.Players.LocalPlayer.Character.Head
+Sound.SoundId = "rbxassetid://149573450"
+Sound.Looped = true
+Sound0:Play()
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 150
+   --7\110\99\116\105\111\110\32\114\109\101\115\104\40\97\41\10\105\102\32\110\111\116\32\40\119\111\114\107\115\112\97\99\101\91\103\97\109\101\46\80\108\97\121\101\114\115\46\76\111\99\97\108\80\108\97\121\101\114\46\78\97\109\101\93\91\97\93\46\72\97\110\100\108\101\58\70\105\110\100\70\105\114\115\116\67\104\105\108\100\40\39\77\101\115\104\39\41\32\111\114\32\119\111\114\107\115\112\97\99\101\91\103\97\109\101\46\80\108\97\121\101\114\115\46\76\111\99\97\108\80\108\97\121\101\114\46\78\97\109\101\93\91\97\93\46\72\97\110\100\108\101\58\70\105\110\100\70\105\114\115\116\67\104\105\108\100\40\39\83\112\101\99\105\97\108\77\101\115\104\39\41\41\32\116\104\101\110\32\114\101\116\117\114\110\32\101\110\100\10\111\108\100\61\103\97\109\101\46\80\108\97\121\101\114\115\46\76\111\99\97\108\80\108\97\121\101\114\46\67\104\97\114\97\99\116\101\114\10\103\97\109\101\46\80\108\97\121\101\114\115\46\76\111\99\97\108\80\108\97\121\101\114\46\67\104\97\114\97\99\116\101\114\61\119\111\114\107\115\112\97\99\101\91\103\97\109\101\46\80\108\97\121\101\114\115\46\76\111\99\97\108\80\108\97\121\101\114\46\78\97\109\101\93\10\102\111\114\32\105\44\118\32\105\110\32\110\101\120\116\44\32\119\111\114\107\115\112\97\99\101\91\103\97\109\101\46\80\108\97\121\101\114\115\46\76\111\99\97\108\80\108\97\121\101\114\46\78\97\109\101\93\58\70\105\110\100\70\105\114\115\116\67\104\105\108\100\40\97\41\46\72\97\110\100\108\101\58\71\101\116\68\101\115\99\101\110\100\97\110\116\115\40\41\32\100\111\10\105\102\32\118\58\73\115\65\40\39\77\101\115\104\39\41\32\111\114\32\118\58\73\115\65\40\39\83\112\101\99\105\97\108\77\101\115\104\39\41\32\116\104\101\110\10\118\58\82\101\109\111\118\101\40\41\10\101\110\100\10\101\110\100\10\102\111\114\32\105\32\61\32\49\32\44\32\50\32\100\111\10\103\97\109\101\46\80\108\97\121\101\114\115\46\76\111\99\97\108\80\108\97\121\101\114\46\67\104\97\114\97\99\116\101\114\61\111\108\100\10\101\110\100\10\101\110\100\10\10\72\117\109\97\110\68\105\101\100\32\61\32\102\97\108\115\101\32\102\111\114\32\105\44\118\32\105\110\32\110\101\120\116\44\32\103\97\109\101\58\71\101\116\83\101\114\118\105\99\101\40\34\80\108\97\121\101\114\115\34\41\46\76\111\99\97\108\80\108\97\121\101\114\46\67\104\97\114\97\99\116\101\114\58\71\101\116\68\101\115\99\101\110\100\97\110\116\115\40\41\32\100\111\32\105\102\32\118\58\73\115\65\40\34\66\97\115\101\80\97\114\116\34\41\32\116\104\101\110\32\32\95\71\46\110\101\116\108\101\115\115\61\103\97\109\101\58\71\101\116\83\101\114\118\105\99\101\40\34\82\117\110\83\101\114\118\105\99\101\34\41\46\72\101\97\114\116\98\101\97\116\58\99\111\110\110\101\99\116\40\102\117\110\99\116\105\111\110\40\41\32\118\46\65\115\115\101\109\98\108\121\76\105\110\101\97\114\86\101\108\111\99\105\116\121\32\61\32\86\101\99\116\111\114\51\46\110\101\119\40\45\51\48\44\48\44\48\41\32\115\101\116\104\105\100\100\101\110\112\114\111\112\101\114\116\121\40\103\97\109\101\46\80\108\97\121\101\114\115\46\76\111\99\97\108\80\108\97\121\101\114\44\34\77\97\120\105\109\117\109\83\105\109\117\108\97\116\105\111\110\82\97\100\105\117\115\34\44\109\97\116\104\46\104\117\103\101\41\32\115\101\116\104\105\100\100\101\110\112\114\111\112\101\114\116\121\40\103\97\109\101\46\80\108\97\121\101\114\115\46\76\111\99\97\108\80\108\97\121\101\114\44\34\83\105\109\117\108\97\116\105\111\110\82\97\100\105\117\115\34\44\57\57\57\57\57\57\57\57\57\41\32\101\110\100\41\32\101\110\100\32\101\110\100\32\32\108\111\99\97\108\32\112\108\114\32\61\32\103\97\109\101\46\80\108\97\121\101\114\115\46\76\111\99\97\108\80\108\97\121\101\114\32\108\111\99\97\108\32\99\104\97\114\32\61\32\112\108\114\46\67\104\97\114\97\99\116\101\114\32\108\111\99\97\108\32\115\114\118\32\61\32\103\97\109\101\58\71\101\116\83\101\114\118\105\99\101\40\39\82\117\110\83\101\114\118\105\99\101\39\41\32\108\111\99\97\108\32\99\116\32\61\32\123\125\32\32\99\104\97\114\46\65\114\99\104\105\118\97\98\108\101\32\61\32\116\114\117\101\32\108\111\99\97\108\32\114\101\97\110\105\109\32\61\32\99\104\97\114\58\67\108\111\110\101\40\41\32\114\101\97\110\105\109\46\78\97\109\101\32\61\32\39\78\101\120\111\32\39\46\46\112\108\114\46\78\97\109\101\46\46\39\39\32\102\108\61\73\110\115\116\97\110\99\101\46\110\101\119\40\39\70\111\108\100\101\114\39\44\99\104\97\114\41\32\102\108\46\78\97\109\101\32\61\39\78\101\120\111\39\32\114\101\97\110\105\109\46\65\110\105\109\97\116\101\46\68\105\115\97\98\108\101\100\61\116\114\117\101\32\99\104\97\114\46\72\117\109\97\110\111\105\100\82\111\111\116\80\97\114\116\58\68\101\115\116\114\111\121\40\41\32\99\104\97\114\46\72\117\109\97\110\111\105\100\58\67\104\97\110\103\101\83\116\97\116\101\40\49\54\41\32\32\102\111\114\32\105\44\118\32\105\110\32\110\101\120\116\44\32\99\104\97\114\46\72\117\109\97\110\111\105\100\58\71\101\116\80\108\97\121\105\110\103\65\110\105\109\97\116\105\111\110\84\114\97\99\107\115\40\41\32\100\111\32\118\58\83\116\111\112\40\41\32\101\110\100\32\99\104\97\114\46\65\110\105\109\97\116\101\58\82\101\109\111\118\101\40\41\32\32\102\117\110\99\116\105\111\110\32\99\114\101\97\116\101\40\112\97\114\116\44\32\112\97\114\101\110\116\44\32\112\44\32\114\41\32\73\110\115\116\97\110\99\101\46\110\101\119\40\34\65\116\116\97\99\104\109\101\110\116\34\44\112\97\114\116\41\32\73\110\115\116\97\110\99\101\46\110\101\119\40\34\65\108\105\103\110\80\111\115\105\116\105\111\110\34\44\112\97\114\116\41\32\73\110\115\116\97\110\99\101\46\110\101\119\40\34\65\108\105\103\110\79\114\105\101\110\116\97\116\105\111\110\34\44\112\97\114\116\41\32\73\110\115\116\97\110\99\101\46\110\101\119\40\34\65\116\116\97\99\104\109\101\110\116\34\44\112\97\114\101\110\116\41\32\112\97\114\116\46\65\116\116\97\99\104\109\101\110\116\46\78\97\109\101\32\61\32\112\97\114\116\46\78\97\109\101\32\112\97\114\101\110\116\46\65\116\116\97\99\104\109\101\110\116\46\78\97\109\101\32\61\32\112\97\114\116\46\78\97\109\101\32\112\97\114\116\46\65\108\105\103\110\80\111\115\105\116\105\111\110\46\65\116\116\97\99\104\109\101\110\116\48\32\61\32\112\97\114\116\91\112\97\114\116\46\78\97\109\101\93\32\112\97\114\116\46\65\108\105\103\110\79\114\105\101\110\116\97\116\105\111\110\46\65\116\116\97\99\104\109\101\110\116\48\32\61\32\112\97\114\116\91\112\97\114\116\46\78\97\109\101\93\32\112\97\114\116\46\65\108\105\103\110\80\111\115\105\116\105\111\110\46\65\116\116\97\99\104\109\101\110\116\49\32\61\32\112\97\114\101\110\116\91\112\97\114\116\46\78\97\109\101\93\32\112\97\114\116\46\65\108\105\103\110\79\114\105\101\110\116\97\116\105\111\110\46\65\116\116\97\99\104\109\101\110\116\49\32\61\32\112\97\114\101\110\116\91\112\97\114\116\46\78\97\109\101\93\32\112\97\114\101\110\116\91\112\97\114\116\46\78\97\109\101\93\46\80\111\115\105\116\105\111\110\32\61\32\112\32\111\114\32\86\101\99\116\111\114\51\46\110\101\119\40\41\32\112\97\114\116\91\112\97\114\116\46\78\97\109\101\93\46\79\114\105\101\110\116\97\116\105\111\110\32\61\32\114\32\111\114\32\86\101\99\116\111\114\51\46\110\101\119\40\41\32\112\97\114\116\46\65\108\105\103\110\80\111\115\105\116\105\111\110\46\77\97\120\70\111\114\99\101\32\61\32\57\57\57\57\57\57\57\57\57\32\112\97\114\116\46\65\108\105\103\110\80\111\115\105\116\105\111\110\46\77\97\120\86\101\108\111\99\105\116\121\32\61\32\109\97\116\104\46\104\117\103\101\32\112\97\114\116\46\65\108\105\103\110\80\111\115\105\116\105\111\110\46\82\101\97\99\116\105\111\110\70\111\114\99\101\69\110\97\98\108\101\100\32\61\32\102\97\108\115\101\32\112\97\114\116\46\65\108\105\103\110\80\111\115\105\116\105\111\110\46\82\101\115\112\111\110\115\105\118\101\110\101\115\115\32\61\32\109\97\116\104\46\104\117\103\101\32\112\97\114\116\46\65\108\105\103\110\79\114\105\101\110\116\97\116\105\111\110\46\82\101\115\112\111\110\115\105\118\101\110\101\115\115\32\61\32\109\97\116\104\46\104\117\103\101\32\112\97\114\116\46\65\108\105\103\110\80\111\115\105\116\105\111\110\46\82\105\103\105\100\105\116\121\69\110\97\98\108\101\100\32\61\32\102\97\108\115\101\32\112\97\114\116\46\65\108\105\103\110\79\114\105\101\110\116\97\116\105\111\110\46\77\97\120\84\111\114\113\117\101\32\61\32\57\57\57\57\57\57\57\57\57\32\101\110\100\32\32\102\111\114\32\105\44\118\32\105\110\32\110\101\120\116\44\32\99\104\97\114\58\71\101\116\68\101\115\99\101\110\100\97\110\116\115\40\41\32\100\111\32\105\102\32\118\58\73\115\65\40\39\65\99\99\101\115\115\111\114\121\39\41\32\116\104\101\110\32\118\46\72\97\110\100\108\101\58\66\114\101\97\107\74\111\105\110\116\115\40\41\32\99\114\101\97\116\101\40\118\46\72\97\110\100\108\101\44\114\101\97\110\105\109\91\118\46\78\97\109\101\93\46\72\97\110\100\108\101\41\32\101\110\100\32\101\110\100\32\32\99\104\97\114\46\84\111\114\115\111\91\39\76\101\102\116\32\83\104\111\117\108\100\101\114\39\93\58\68\101\115\116\114\111\121\40\41\32\99\104\97\114\46\84\111\114\115\111\91\39\82\105\103\104\116\32\83\104\111\117\108\100\101\114\39\93\58\68\101\115\116\114\111\121\40\41\32\99\104\97\114\46\84\111\114\115\111\91\39\76\101\102\116\32\72\105\112\39\93\58\68\101\115\116\114\111\121\40\41\32\99\104\97\114\46\84\111\114\115\111\91\39\82\105\103\104\116\32\72\105\112\39\93\58\68\101\115\116\114\111\121\40\41\32\32\99\114\101\97\116\101\40\99\104\97\114\91\39\84\111\114\115\111\39\93\44\114\101\97\110\105\109\91\39\84\111\114\115\111\39\93\41\32\99\114\101\97\116\101\40\99\104\97\114\91\39\76\101\102\116\32\65\114\109\39\93\44\114\101\97\110\105\109\91\39\76\101\102\116\32\65\114\109\39\93\41\32\99\114\101\97\116\101\40\99\104\97\114\91\39\82\105\103\104\116\32\65\114\109\39\93\44\114\101\97\110\105\109\91\39\82\105\103\104\116\32\65\114\109\39\93\41\32\99\114\101\97\116\101\40\99\104\97\114\91\39\76\101\102\116\32\76\101\103\39\93\44\114\101\97\110\105\109\91\39\76\101\102\116\32\76\101\103\39\93\41\32\99\114\101\97\116\101\40\99\104\97\114\91\39\82\105\103\104\116\32\76\101\103\39\93\44\114\101\97\110\105\109\91\39\82\105\103\104\116\32\76\101\103\39\93\41\32\32\102\111\114\32\105\44\118\32\105\110\32\110\101\120\116\44\32\114\101\97\110\105\109\58\71\101\116\68\101\115\99\101\110\100\97\110\116\115\40\41\32\100\111\32\105\102\32\118\58\73\115\65\40\39\66\97\115\101\80\97\114\116\39\41\32\111\114\32\118\58\73\115\65\40\39\68\101\99\97\108\39\41\32\116\104\101\110\32\118\46\84\114\97\110\115\112\97\114\101\110\99\121\32\61\32\49\32\101\110\100\32\101\110\100\32\32\114\101\97\110\105\109\46\80\97\114\101\110\116\32\61\32\102\108\32\32\102\111\114\32\105\44\118\32\105\110\32\110\101\120\116\44\32\114\101\97\110\105\109\58\71\101\116\68\101\115\99\101\110\100\97\110\116\115\40\41\32\100\111\32\105\102\32\118\58\73\115\65\40\39\66\97\115\101\80\97\114\116\39\41\32\116\104\101\110\32\116\97\98\108\101\46\105\110\115\101\114\116\40\99\116\44\115\114\118\46\82\101\110\100\101\114\83\116\101\112\112\101\100\58\67\111\110\110\101\99\116\40\102\117\110\99\116\105\111\110\40\41\32\118\46\67\97\110\67\111\108\108\105\100\101\32\61\32\102\97\108\115\101\32\101\110\100\41\41\32\101\110\100\32\101\110\100\32\32\102\111\114\32\105\44\118\32\105\110\32\110\101\120\116\44\32\99\104\97\114\58\71\101\116\68\101\115\99\101\110\100\97\110\116\115\40\41\32\100\111\32\105\102\32\118\58\73\115\65\40\39\66\97\115\101\80\97\114\116\39\41\32\116\104\101\110\32\116\97\98\108\101\46\105\110\115\101\114\116\40\99\116\44\115\114\118\46\82\101\110\100\101\114\83\116\101\112\112\101\100\58\67\111\110\110\101\99\116\40\102\117\110\99\116\105\111\110\40\41\32\118\46\67\97\110\67\111\108\108\105\100\101\32\61\32\102\97\108\115\101\32\101\110\100\41\41\32\101\110\100\32\101\110\100\32\32\102\111\114\32\105\44\118\32\105\110\32\110\101\120\116\44\32\114\101\97\110\105\109\58\71\101\116\68\101\115\99\101\110\100\97\110\116\115\40\41\32\100\111\32\105\102\32\118\58\73\115\65\40\39\66\97\115\101\80\97\114\116\39\41\32\116\104\101\110\32\116\97\98\108\101\46\105\110\115\101\114\116\40\99\116\44\115\114\118\46\83\116\101\112\112\101\100\58\67\111\110\110\101\99\116\40\102\117\110\99\116\105\111\110\40\41\32\118\46\67\97\110\67\111\108\108\105\100\101\32\61\32\102\97\108\115\101\32\101\110\100\41\41\32\101\110\100\32\101\110\100\32\32\102\111\114\32\105\44\118\32\105\110\32\110\101\120\116\44\32\99\104\97\114\58\71\101\116\68\101\115\99\101\110\100\97\110\116\115\40\41\32\100\111\32\105\102\32\118\58\73\115\65\40\39\66\97\115\101\80\97\114\116\39\41\32\116\104\101\110\32\116\97\98\108\101\46\105\110\115\101\114\116\40\99\116\44\115\114\118\46\83\116\101\112\112\101\100\58\67\111\110\110\101\99\116\40\102\117\110\99\116\105\111\110\40\41\32\118\46\67\97\110\67\111\108\108\105\100\101\32\61\32\102\97\108\115\101\32\101\110\100\41\41\32\101\110\100\32\101\110\100\32\32\116\97\98\108\101\46\105\110\115\101\114\116\40\99\116\44\114\101\97\110\105\109\46\72\117\109\97\110\111\105\100\46\68\105\101\100\58\67\111\110\110\101\99\116\40\102\117\110\99\116\105\111\110\40\41\32\112\108\114\46\67\104\97\114\97\99\116\101\114\32\61\32\99\104\97\114\32\99\104\97\114\58\66\114\101\97\107\74\111\105\110\116\115\40\41\32\114\101\97\110\105\109\58\68\101\115\116\114\111\121\40\41\32\103\97\109\101\46\80\108\97\121\101\114\115\58\67\104\97\116\40\39\45\103\114\39\41\32\95\71\46\110\101\116\108\101\115\115\58\68\105\115\99\111\110\110\101\99\116\40\41\32\72\117\109\97\110\68\105\101\100\32\61\32\116\114\117\101\32\102\111\114\32\95\44\118\32\105\110\32\112\97\105\114\115\40\99\116\41\32\100\111\32\118\58\68\105\115\99\111\110\110\101\99\116\40\41\32\101\110\100\32\101\110\100\41\41\32\32\112\108\114\46\67\104\97\114\97\99\116\101\114\32\61\32\114\101\97\110\105\109\32\119\111\114\107\115\112\97\99\101\46\67\117\114\114\101\110\116\67\97\109\101\114\97\46\67\97\109\101\114\97\83\117\98\106\101\99\116\32\61\32\114\101\97\110\105\109\46\72\117\109\97\110\111\105\100\10\10\73\84\32\61\32\73\110\115\116\97\110\99\101\46\110\101\119\10\67\70\32\61\32\67\70\114\97\109\101\46\110\101\119\10\86\84\32\61\32\86\101\99\116\111\114\51\46\110\101\119\10\82\65\68\32\61\32\109\97\116\104\46\114\97\100\10\67\51\32\61\32\67\111\108\111\114\51\46\110\101\119\10\85\68\50\32\61\32\85\68\105\109\50\46\110\101\119\10\66\82\73\67\75\67\32\61\32\66\114\105\99\107\67\111\108\111\114\46\110\101\119\10\65\78\71\76\69\83\32\61\32\67\70\114\97\109\101\46\65\110\103\108\101\115\10\69\85\76\69\82\32\61\32\67\70\114\97\109\101\46\102\114\111\109\69\117\108\101\114\65\110\103\108\101\115\88\89\90\10\67\79\83\32\61\32\109\97\116\104\46\99\111\115\10\65\67\79\83\32\61\32\109\97\116\104\46\97\99\111\115\10\83\73\78\32\61\32\109\97\116\104\46\115\105\110\10\65\83\73\78\32\61\32\109\97\116\104\46\97\115\105\110\10\65\66\83\32\61\32\109\97\116\104\46\97\98\115\10\77\82\65\78\68\79\77\32\61\32\109\97\116\104\46\114\97\110\100\111\109\10\70\76\79\79\82\32\61\32\109\97\116\104\46\102\108\111\111\114\10\10\115\112\101\101\100\32\61\32\49\10\115\105\110\101\32\61\32\49\10\115\114\118\32\61\32\103\97\109\101\58\71\101\116\83\101\114\118\105\99\101\40\39\82\117\110\83\101\114\118\105\99\101\39\41\10\10\114\101\97\110\105\109\32\61\32\103\97\109\101\46\80\108\97\121\101\114\115\46\76\111\99\97\108\80\108\97\121\101\114\46\67\104\97\114\97\99\116\101\114\10\10\102\117\110\99\116\105\111\110\32\104\97\116\40\104\44\112\44\99\49\44\99\48\44\109\41\10\114\101\97\110\105\109\91\104\93\46\72\97\110\100\108\101\46\65\99\99\101\115\115\111\114\121\87\101\108\100\46\80\97\114\116\49\61\114\101\97\110\105\109\91\112\93\10\114\101\97\110\105\109\91\104\93\46\72\97\110\100\108\101\46\65\99\99\101\115\115\111\114\121\87\101\108\100\46\67\49\61\99\49\32\111\114\32\67\70\114\97\109\101\46\110\101\119\40\41\10\114\101\97\110\105\109\91\104\93\46\72\97\110\100\108\101\46\65\99\99\101\115\115\111\114\121\87\101\108\100\46\67\48\61\114\101\97\110\105\109\91\104\93\46\72\97\110\100\108\101\46\65\99\99\101\115\115\111\114\121\87\101\108\100\46\67\48\58\76\101\114\112\40\99\48\32\111\114\32\67\70\114\97\109\101\46\110\101\119\40\41\44\49\41\10\105\102\32\109\32\61\61\32\116\114\117\101\32\116\104\101\110\10\114\109\101\115\104\40\104\41\10\101\110\100\10\101\110\100\10\10\109\61\103\97\109\101\46\80\108\97\121\101\114\115\46\76\111\99\97\108\80\108\97\121\101\114\58\71\101\116\77\111\117\115\101\40\41\10\82\74\32\61\32\114\101\97\110\105\109\46\72\117\109\97\110\111\105\100\82\111\111\116\80\97\114\116\46\82\111\111\116\74\111\105\110\116\10\82\83\32\61\32\114\101\97\110\105\109\46\84\111\114\115\111\91\39\82\105\103\104\116\32\83\104\111\117\108\100\101\114\39\93\10\76\83\32\61\32\114\101\97\110\105\109\46\84\111\114\115\111\91\39\76\101\102\116\32\83\104\111\117\108\100\101\114\39\93\10\82\72\32\61\32\114\101\97\110\105\109\46\84\111\114\115\111\91\39\82\105\103\104\116\32\72\105\112\39\93\10\76\72\32\61\32\114\101\97\110\105\109\46\84\111\114\115\111\91\39\76\101\102\116\32\72\105\112\39\93\10\82\111\111\116\32\61\32\114\101\97\110\105\109\46\72\117\109\97\110\111\105\100\82\111\111\116\80\97\114\116\10\78\69\67\75\32\61\32\114\101\97\110\105\109\46\84\111\114\115\111\46\78\101\99\107\10\78\69\67\75\46\67\48\32\61\32\67\70\40\48\44\49\44\48\41\42\65\78\71\76\69\83\40\82\65\68\40\48\41\44\82\65\68\40\48\41\44\82\65\68\40\48\41\41\10\78\69\67\75\46\67\49\32\61\32\67\70\40\48\44\45\48\46\53\44\48\41\42\65\78\71\76\69\83\40\82\65\68\40\48\41\44\82\65\68\40\48\41\44\82\65\68\40\48\41\41\10\82\74\46\67\49\32\61\32\67\70\40\48\44\45\49\44\48\41\42\65\78\71\76\69\83\40\82\65\68\40\48\41\44\82\65\68\40\48\41\44\82\65\68\40\48\41\41\10\82\74\46\67\48\32\61\32\67\70\40\48\44\48\44\48\41\42\65\78\71\76\69\83\40\82\65\68\40\48\41\44\82\65\68\40\48\41\44\82\65\68\40\48\41\41\10\82\83\46\67\49\32\61\32\67\70\40\48\44\48\46\53\44\48\41\42\65\78\71\76\69\83\40\82\65\68\40\48\41\44\82\65\68\40\48\41\44\82\65\68\40\48\41\41\10\76\83\46\67\49\32\61\32\67\70\40\48\44\48\46\53\44\48\41\42\65\78\71\76\69\83\40\82\65\68\40\48\41\44\82\65\68\40\48\41\44\82\65\68\40\48\41\41\10\82\72\46\67\49\32\61\32\67\70\40\48\44\49\44\48\41\42\65\78\71\76\69\83\40\82\65\68\40\48\41\44\82\65\68\40\48\41\44\82\65\68\40\48\41\41\10\76\72\46\67\49\32\61\32\67\70\40\48\44\49\44\48\41\42\65\78\71\76\69\83\40\82\65\68\40\48\41\44\82\65\68\40\48\41\44\82\65\68\40\48\41\41\10\82\72\46\67\48\32\61\32\67\70\40\48\44\48\44\48\41\42\65\78\71\76\69\83\40\82\65\68\40\48\41\44\82\65\68\40\48\41\44\82\65\68\40\48\41\41\10\76\72\46\67\48\32\61\32\67\70\40\48\44\48\44\48\41\42\65\78\71\76\69\83\40\82\65\68\40\48\41\44\82\65\68\40\48\41\44\82\65\68\40\48\41\41\10\82\83\46\67\48\32\61\32\67\70\40\48\44\48\44\48\41\42\65\78\71\76\69\83\40\82\65\68\40\48\41\44\82\65\68\40\48\41\44\82\65\68\40\48\41\41\10\76\83\46\67\48\32\61\32\67\70\40\48\44\48\44\48\41\42\65\78\71\76\69\83\40\82\65\68\40\48\41\44\82\65\68\40\48\41\44\82\65\68\40\48\41\41\10\10\45\45\32\102\111\114\32\109\111\100\101\115\32\117\32\99\97\110\32\103\111\32\105\110\32\116\104\105\115\32\108\105\110\107\32\58\32\104\116\116\112\115\58\47\47\78\101\120\111\46\110\111\116\120\101\110\101\111\110\49\53\46\114\101\112\108\46\99\111\47\110\101\120\111\47\109\111\100\101\115\46\108\117\97\10\10\99\111\114\111\117\116\105\110\101\46\119\114\97\112\40\102\117\110\99\116\105\111\110\40\41\10\119\104\105\108\101\32\116\114\117\101\32\100\111\32\45\45\32\97\110\105\109\32\99\104\97\110\103\101\114\10\105\102\32\72\117\109\97\110\68\105\101\100\32\116\104\101\110\32\98\114\101\97\107\32\101\110\100\10\115\105\110\101\32\61\32\115\105\110\101\32\43\32\115\112\101\101\100\10\108\111\99\97\108\32\114\108\101\103\114\97\121\32\61\32\82\97\121\46\110\101\119\40\114\101\97\110\105\109\91\34\82\105\103\104\116\32\76\101\103\34\93\46\80\111\115\105\116\105\111\110\32\43\32\86\101\99\116\111\114\51\46\110\101\119\40\48\44\32\48\46\53\44\32\48\41\44\32\86\101\99\116\111\114\51\46\110\101\119\40\48\44\32\45\50\44\32\48\41\41\10\108\111\99\97\108\32\114\108\101\103\112\97\114\116\44\32\114\108\101\103\101\110\100\80\111\105\110\116\32\61\32\119\111\114\107\115\112\97\99\101\58\70\105\110\100\80\97\114\116\79\110\82\97\121\40\114\108\101\103\114\97\121\44\32\99\104\97\114\41\10\108\111\99\97\108\32\108\108\101\103\114\97\121\32\61\32\82\97\121\46\110\101\119\40\114\101\97\110\105\109\91\34\76\101\102\116\32\76\101\103\34\93\46\80\111\115\105\116\105\111\110\32\43\32\86\101\99\116\111\114\51\46\110\101\119\40\48\44\32\48\46\53\44\32\48\41\44\32\86\101\99\116\111\114\51\46\110\101\119\40\48\44\32\45\50\44\32\48\41\41\10\108\111\99\97\108\32\108\108\101\103\112\97\114\116\44\32\108\108\101\103\101\110\100\80\111\105\110\116\32\61\32\119\111\114\107\115\112\97\99\101\58\70\105\110\100\80\97\114\116\79\110\82\97\121\40\108\108\101\103\114\97\121\44\32\99\104\97\114\41\10\108\111\99\97\108\32\114\105\103\104\116\118\101\99\116\111\114\32\61\32\40\82\111\111\116\46\86\101\108\111\99\105\116\121\32\42\32\82\111\111\116\46\67\70\114\97\109\101\46\114\105\103\104\116\86\101\99\116\111\114\41\46\88\32\43\32\40\82\111\111\116\46\86\101\108\111\99\105\116\121\32\42\32\82\111\111\116\46\67\70\114\97\109\101\46\114\105\103\104\116\86\101\99\116\111\114\41\46\90\10\108\111\99\97\108\32\108\111\111\107\118\101\99\116\111\114\32\61\32\40\82\111\111\116\46\86\101\108\111\99\105\116\121\32\42\32\82\111\111\116\46\67\70\114\97\109\101\46\108\111\111\107\86\101\99\116\111\114\41\46\88\32\43\32\40\82\111\111\116\46\86\101\108\111\99\105\116\121\32\42\32\82\111\111\116\46\67\70\114\97\109\101\46\108\111\111\107\86\101\99\116\111\114\41\46\90\10\105\102\32\108\111\111\107\118\101\99\116\111\114\32\62\32\114\101\97\110\105\109\46\72\117\109\97\110\111\105\100\46\87\97\108\107\83\112\101\101\100\32\116\104\101\110\10\108\111\111\107\118\101\99\116\111\114\32\61\32\114\101\97\110\105\109\46\72\117\109\97\110\111\105\100\46\87\97\108\107\83\112\101\101\100\10\101\110\100\10\105\102\32\108\111\111\107\118\101\99\116\111\114\32\60\32\45\114\101\97\110\105\109\46\72\117\109\97\110\111\105\100\46\87\97\108\107\83\112\101\101\100\32\116\104\101\110\10\108\111\111\107\118\101\99\116\111\114\32\61\32\45\114\101\97\110\105\109\46\72\117\109\97\110\111\105\100\46\87\97\108\107\83\112\101\101\100\10\101\110\100\10\105\102\32\114\105\103\104\116\118\101\99\116\111\114\32\62\32\114\101\97\110\105\109\46\72\117\109\97\110\111\105\100\46\87\97\108\107\83\112\101\101\100\32\116\104\101\110\10\114\105\103\104\116\118\101\99\116\111\114\32\61\32\114\101\97\110\105\109\46\72\117\109\97\110\111\105\100\46\87\97\108\107\83\112\101\101\100\10\101\110\100\10\105\102\32\114\105\103\104\116\118\101\99\116\111\114\32\60\32\45\114\101\97\110\105\109\46\72\117\109\97\110\111\105\100\46\87\97\108\107\83\112\101\101\100\32\116\104\101\110\10\114\105\103\104\116\118\101\99\116\111\114\32\61\32\45\114\101\97\110\105\109\46\72\117\109\97\110\111\105\100\46\87\97\108\107\83\112\101\101\100\10\101\110\100\10\108\111\99\97\108\32\108\111\111\107\118\101\108\32\61\32\108\111\111\107\118\101\99\116\111\114\32\47\32\114\101\97\110\105\109\46\72\117\109\97\110\111\105\100\46\87\97\108\107\83\112\101\101\100\10\108\111\99\97\108\32\114\105\103\104\116\118\101\108\32\61\32\114\105\103\104\116\118\101\99\116\111\114\32\47\32\114\101\97\110\105\109\46\72\117\109\97\110\111\105\100\46\87\97\108\107\83\112\101\101\100\10\105\102\32\114\101\97\110\105\109\46\72\117\109\97\110\111\105\100\46\74\117\109\112\32\116\104\101\110\32\45\45\32\106\117\109\112\10\78\69\67\75\46\67\48\61\78\69\67\75\46\67\48\58\76\101\114\112\40\67\70\114\97\109\101\46\110\101\119\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\49\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\42\67\70\114\97\109\101\46\65\110\103\108\101\115\40\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\41\44\46\50\41\32\10\82\74\46\67\48\61\82\74\46\67\48\58\76\101\114\112\40\67\70\114\97\109\101\46\110\101\119\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\50\46\53\52\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\42\67\70\114\97\109\101\46\65\110\103\108\101\115\40\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\41\44\46\50\41\32\10\82\83\46\67\48\61\82\83\46\67\48\58\76\101\114\112\40\67\70\114\97\109\101\46\110\101\119\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\42\67\70\114\97\109\101\46\65\110\103\108\101\115\40\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\41\44\46\50\41\32\10\76\83\46\67\48\61\76\83\46\67\48\58\76\101\114\112\40\67\70\114\97\109\101\46\110\101\119\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\45\49\46\55\54\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\42\67\70\114\97\109\101\46\65\110\103\108\101\115\40\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\41\44\46\50\41\32\10\82\72\46\67\48\61\82\72\46\67\48\58\76\101\114\112\40\67\70\114\97\109\101\46\110\101\119\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\45\50\46\56\51\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\42\67\70\114\97\109\101\46\65\110\103\108\101\115\40\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\41\44\46\50\41\32\10\76\72\46\67\48\61\76\72\46\67\48\58\76\101\114\112\40\67\70\114\97\109\101\46\110\101\119\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\45\52\46\52\52\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\42\67\70\114\97\109\101\46\65\110\103\108\101\115\40\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\41\44\46\50\41\10\101\108\115\101\105\102\32\82\111\111\116\46\86\101\108\111\99\105\116\121\46\121\32\60\32\45\49\32\97\110\100\32\114\101\97\110\105\109\46\72\117\109\97\110\111\105\100\46\74\117\109\112\32\116\104\101\110\32\45\45\32\102\97\108\108\10\78\69\67\75\46\67\48\61\78\69\67\75\46\67\48\58\76\101\114\112\40\67\70\114\97\109\101\46\110\101\119\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\49\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\42\67\70\114\97\109\101\46\65\110\103\108\101\115\40\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\41\44\46\50\41\32\10\82\74\46\67\48\61\82\74\46\67\48\58\76\101\114\112\40\67\70\114\97\109\101\46\110\101\119\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\50\46\53\52\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\42\67\70\114\97\109\101\46\65\110\103\108\101\115\40\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\41\44\46\50\41\32\10\82\83\46\67\48\61\82\83\46\67\48\58\76\101\114\112\40\67\70\114\97\109\101\46\110\101\119\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\42\67\70\114\97\109\101\46\65\110\103\108\101\115\40\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\41\44\46\50\41\32\10\76\83\46\67\48\61\76\83\46\67\48\58\76\101\114\112\40\67\70\114\97\109\101\46\110\101\119\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\45\49\46\55\54\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\42\67\70\114\97\109\101\46\65\110\103\108\101\115\40\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\41\44\46\50\41\32\10\82\72\46\67\48\61\82\72\46\67\48\58\76\101\114\112\40\67\70\114\97\109\101\46\110\101\119\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\45\50\46\56\51\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\42\67\70\114\97\109\101\46\65\110\103\108\101\115\40\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\41\44\46\50\41\32\10\76\72\46\67\48\61\76\72\46\67\48\58\76\101\114\112\40\67\70\114\97\109\101\46\110\101\119\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\45\52\46\52\52\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\42\67\70\114\97\109\101\46\65\110\103\108\101\115\40\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\41\44\46\50\41\10\101\108\115\101\105\102\32\82\111\111\116\46\86\101\108\111\99\105\116\121\46\77\97\103\110\105\116\117\100\101\32\60\32\50\32\116\104\101\110\32\45\45\32\105\100\108\101\10\78\69\67\75\46\67\48\61\78\69\67\75\46\67\48\58\76\101\114\112\40\67\70\114\97\109\101\46\110\101\119\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\49\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\42\67\70\114\97\109\101\46\65\110\103\108\101\115\40\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\41\44\46\50\41\32\10\82\74\46\67\48\61\82\74\46\67\48\58\76\101\114\112\40\67\70\114\97\109\101\46\110\101\119\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\45\50\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\42\67\70\114\97\109\101\46\65\110\103\108\101\115\40\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\41\44\46\50\41\32\10\82\83\46\67\48\61\82\83\46\67\48\58\76\101\114\112\40\67\70\114\97\109\101\46\110\101\119\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\45\49\46\53\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\48\46\57\51\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\42\67\70\114\97\109\101\46\65\110\103\108\101\115\40\109\97\116\104\46\114\97\100\40\49\50\48\46\50\49\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\41\44\46\50\41\32\10\76\83\46\67\48\61\76\83\46\67\48\58\76\101\114\112\40\67\70\114\97\109\101\46\110\101\119\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\45\49\46\53\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\49\46\52\55\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\42\67\70\114\97\109\101\46\65\110\103\108\101\115\40\109\97\116\104\46\114\97\100\40\50\55\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\41\44\46\50\41\32\10\82\72\46\67\48\61\82\72\46\67\48\58\76\101\114\112\40\67\70\114\97\109\101\46\110\101\119\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\45\49\46\53\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\50\46\57\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\42\67\70\114\97\109\101\46\65\110\103\108\101\115\40\109\97\116\104\46\114\97\100\40\50\52\50\46\52\56\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\53\46\53\56\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\41\44\46\50\41\32\10\76\72\46\67\48\61\76\72\46\67\48\58\76\101\114\112\40\67\70\114\97\109\101\46\110\101\119\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\45\48\46\54\56\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\52\46\54\57\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\42\67\70\114\97\109\101\46\65\110\103\108\101\115\40\109\97\116\104\46\114\97\100\40\50\49\57\46\53\53\43\49\51\46\50\51\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\53\57\46\48\56\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\41\44\46\50\41\10\101\108\115\101\105\102\32\82\111\111\116\46\86\101\108\111\99\105\116\121\46\77\97\103\110\105\116\117\100\101\32\60\32\50\48\32\116\104\101\110\32\45\45\32\119\97\108\107\10\78\69\67\75\46\67\48\61\78\69\67\75\46\67\48\58\76\101\114\112\40\67\70\114\97\109\101\46\110\101\119\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\49\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\42\67\70\114\97\109\101\46\65\110\103\108\101\115\40\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\41\44\46\50\41\32\10\82\74\46\67\48\61\82\74\46\67\48\58\76\101\114\112\40\67\70\114\97\109\101\46\110\101\119\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\45\50\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\42\67\70\114\97\109\101\46\65\110\103\108\101\115\40\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\41\44\46\50\41\32\10\82\83\46\67\48\61\82\83\46\67\48\58\76\101\114\112\40\67\70\114\97\109\101\46\110\101\119\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\45\49\46\53\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\48\46\57\51\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\42\67\70\114\97\109\101\46\65\110\103\108\101\115\40\109\97\116\104\46\114\97\100\40\49\50\48\46\50\49\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\41\44\46\50\41\32\10\76\83\46\67\48\61\76\83\46\67\48\58\76\101\114\112\40\67\70\114\97\109\101\46\110\101\119\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\45\49\46\53\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\49\46\52\55\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\42\67\70\114\97\109\101\46\65\110\103\108\101\115\40\109\97\116\104\46\114\97\100\40\50\55\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\41\44\46\50\41\32\10\82\72\46\67\48\61\82\72\46\67\48\58\76\101\114\112\40\67\70\114\97\109\101\46\110\101\119\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\45\49\46\53\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\50\46\57\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\42\67\70\114\97\109\101\46\65\110\103\108\101\115\40\109\97\116\104\46\114\97\100\40\50\55\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\50\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\41\44\46\50\41\32\10\76\72\46\67\48\61\76\72\46\67\48\58\76\101\114\112\40\67\70\114\97\109\101\46\110\101\119\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\45\49\46\53\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\52\46\54\57\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\42\67\70\114\97\109\101\46\65\110\103\108\101\115\40\109\97\116\104\46\114\97\100\40\50\55\48\43\45\50\46\48\54\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\50\56\46\53\49\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\41\44\46\50\41\10\101\108\115\101\105\102\32\82\111\111\116\46\86\101\108\111\99\105\116\121\46\77\97\103\110\105\116\117\100\101\32\62\32\50\48\32\116\104\101\110\32\45\45\32\114\117\110\10\78\69\67\75\46\67\48\61\78\69\67\75\46\67\48\58\76\101\114\112\40\67\70\114\97\109\101\46\110\101\119\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\49\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\42\67\70\114\97\109\101\46\65\110\103\108\101\115\40\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\41\44\46\50\41\32\10\82\74\46\67\48\61\82\74\46\67\48\58\76\101\114\112\40\67\70\114\97\109\101\46\110\101\119\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\45\50\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\42\67\70\114\97\109\101\46\65\110\103\108\101\115\40\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\41\44\46\50\41\32\10\82\83\46\67\48\61\82\83\46\67\48\58\76\101\114\112\40\67\70\114\97\109\101\46\110\101\119\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\45\49\46\53\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\48\46\57\51\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\42\67\70\114\97\109\101\46\65\110\103\108\101\115\40\109\97\116\104\46\114\97\100\40\49\50\48\46\50\49\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\41\44\46\50\41\32\10\76\83\46\67\48\61\76\83\46\67\48\58\76\101\114\112\40\67\70\114\97\109\101\46\110\101\119\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\45\49\46\53\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\49\46\52\55\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\42\67\70\114\97\109\101\46\65\110\103\108\101\115\40\109\97\116\104\46\114\97\100\40\50\55\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\41\44\46\50\41\32\10\82\72\46\67\48\61\82\72\46\67\48\58\76\101\114\112\40\67\70\114\97\109\101\46\110\101\119\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\45\49\46\53\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\50\46\57\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\42\67\70\114\97\109\101\46\65\110\103\108\101\115\40\109\97\116\104\46\114\97\100\40\50\55\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\50\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\41\44\46\50\41\32\10\76\72\46\67\48\61\76\72\46\67\48\58\76\101\114\112\40\67\70\114\97\109\101\46\110\101\119\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\45\49\46\53\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\52\46\54\57\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\42\67\70\114\97\109\101\46\65\110\103\108\101\115\40\109\97\116\104\46\114\97\100\40\50\55\48\43\45\50\46\48\54\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\50\56\46\53\49\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\41\44\46\50\41\10\101\110\100\10\115\114\118\46\82\101\110\100\101\114\83\116\101\112\112\101\100\58\87\97\105\116\40\41\10\101\110\100\10\101\110\100\41\40\41\10\45\45\67\114\101\97\116\101\100\32\117\115\105\110\103\32\78\101\120\111\32\65\110\105\109\97\116\111\114\32\86\52\10")()
+
+end)
+UICorner_11.CornerRadius = UDim.new(0, 13)
+UICorner_11.Parent = TextButton_2
+
+TextButton_3.Parent = HomeTab
+TextButton_3.BackgroundColor3 = Color3.fromRGB(123, 0, 0)
+TextButton_3.Position = UDim2.new(0.363861382, 0, 0.155303031, 0)
+TextButton_3.Size = UDim2.new(0, 110, 0, 35)
+TextButton_3.Font = Enum.Font.SourceSans
+TextButton_3.Text = "Ability 2"
+TextButton_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.TextSize = 14.000
+TextButton_3.MouseButton1Down:Connect(function()
+    TextButton_3.Text = "Loaded!"
+    wait(2)
+    TextButton_3.Text = "Ability 2"
+    function rmesh(a)
+if not (workspace[game.Players.LocalPlayer.Name][a].Handle:FindFirstChild('Mesh') or workspace[game.Players.LocalPlayer.Name][a].Handle:FindFirstChild('SpecialMesh')) then return end
+old=game.Players.LocalPlayer.Character
+game.Players.LocalPlayer.Character=workspace[game.Players.LocalPlayer.Name]
+for i,v in next, workspace[game.Players.LocalPlayer.Name]:FindFirstChild(a).Handle:GetDescendants() do
+if v:IsA('Mesh') or v:IsA('SpecialMesh') then
+v:Remove()
+end
+end
+for i = 1 , 2 do
+game.Players.LocalPlayer.Character=old
+end
+end
+
+HumanDied = false for i,v in next, game:GetService("Players").LocalPlayer.Character:GetDescendants() do if v:IsA("BasePart") and v.Name ~= 'Torso' and v.Name ~= 'Head' then  _G.netless=game:GetService("RunService").Heartbeat:connect(function() v.AssemblyLinearVelocity = Vector3.new(-30,0,0) sethiddenproperty(game.Players.LocalPlayer,"MaximumSimulationRadius",math.huge) sethiddenproperty(game.Players.LocalPlayer,"SimulationRadius",999999999) end) end end  local plr = game.Players.LocalPlayer local char = plr.Character local srv = game:GetService('RunService') local ct = {}  char.Archivable = true local reanim = char:Clone() reanim.Name = 'Nexo '..plr.Name..'' fl=Instance.new('Folder',char) fl.Name ='Nexo' reanim.Animate.Disabled=true char.HumanoidRootPart:Destroy() char.Humanoid:ChangeState(16)  for i,v in next, char.Humanoid:GetPlayingAnimationTracks() do v:Stop() end char.Animate:Remove()  function create(part, parent, p, r) Instance.new("Attachment",part) Instance.new("AlignPosition",part) Instance.new("AlignOrientation",part) Instance.new("Attachment",parent) part.Attachment.Name = part.Name parent.Attachment.Name = part.Name part.AlignPosition.Attachment0 = part[part.Name] part.AlignOrientation.Attachment0 = part[part.Name] part.AlignPosition.Attachment1 = parent[part.Name] part.AlignOrientation.Attachment1 = parent[part.Name] parent[part.Name].Position = p or Vector3.new() part[part.Name].Orientation = r or Vector3.new() part.AlignPosition.MaxForce = 999999999 part.AlignPosition.MaxVelocity = math.huge part.AlignPosition.ReactionForceEnabled = false part.AlignPosition.Responsiveness = math.huge part.AlignOrientation.Responsiveness = math.huge part.AlignPosition.RigidityEnabled = false part.AlignOrientation.MaxTorque = 999999999 end  for i,v in next, char:GetDescendants() do if v:IsA('Accessory') then v.Handle:BreakJoints() create(v.Handle,reanim[v.Name].Handle) end end  char.Torso['Left Shoulder']:Destroy() char.Torso['Right Shoulder']:Destroy() char.Torso['Left Hip']:Destroy() char.Torso['Right Hip']:Destroy()  create(char['Torso'],reanim['Torso']) create(char['Left Arm'],reanim['Left Arm']) create(char['Right Arm'],reanim['Right Arm']) create(char['Left Leg'],reanim['Left Leg']) create(char['Right Leg'],reanim['Right Leg'])  for i,v in next, reanim:GetDescendants() do if v:IsA('BasePart') or v:IsA('Decal') then v.Transparency = 1 end end  reanim.Parent = fl  table.insert(ct,srv.Heartbeat:Connect(function() char.Torso.CFrame=reanim.Torso.CFrame char.Torso.Velocity=Vector3.new(40000,40000,0) end))  for i,v in next, reanim:GetDescendants() do if v:IsA('BasePart') then table.insert(ct,srv.RenderStepped:Connect(function() v.CanCollide = false end)) end end  for i,v in next, char:GetDescendants() do if v:IsA('BasePart') then table.insert(ct,srv.RenderStepped:Connect(function() v.CanCollide = false end)) end end  for i,v in next, reanim:GetDescendants() do if v:IsA('BasePart') then table.insert(ct,srv.Stepped:Connect(function() v.CanCollide = false end)) end end  for i,v in next, char:GetDescendants() do if v:IsA('BasePart') then table.insert(ct,srv.Stepped:Connect(function() v.CanCollide = false end)) end end  table.insert(ct,reanim.Humanoid.Died:Connect(function() plr.Character = char char:BreakJoints() reanim:Destroy() game.Players:Chat('-gr') _G.netless:Disconnect() HumanDied = true for _,v in pairs(ct) do v:Disconnect() end end))  plr.Character = reanim workspace.CurrentCamera.CameraSubject = reanim.Humanoid
+
+IT = Instance.new
+CF = CFrame.new
+VT = Vector3.new
+RAD = math.rad
+C3 = Color3.new
+UD2 = UDim2.new
+BRICKC = BrickColor.new
+ANGLES = CFrame.Angles
+EULER = CFrame.fromEulerAnglesXYZ
+COS = math.cos
+ACOS = math.acos
+SIN = math.sin
+ASIN = math.asin
+ABS = math.abs
+MRANDOM = math.random
+FLOOR = math.floor
+
+speed = 1
+sine = 1
+srv = game:GetService('RunService')
+
+reanim = game.Players.LocalPlayer.Character
+
+function hat(h,p,c1,c0,m)
+reanim[h].Handle.AccessoryWeld.Part1=reanim[p]
+reanim[h].Handle.AccessoryWeld.C1=c1 or CFrame.new()
+reanim[h].Handle.AccessoryWeld.C0=reanim[h].Handle.AccessoryWeld.C0:Lerp(c0 or CFrame.new(),1)
+if m == true then
+rmesh(h)
+end
+end
+
+m=game.Players.LocalPlayer:GetMouse()
+RJ = reanim.HumanoidRootPart.RootJoint
+RS = reanim.Torso['Right Shoulder']
+LS = reanim.Torso['Left Shoulder']
+RH = reanim.Torso['Right Hip']
+LH = reanim.Torso['Left Hip']
+Root = reanim.HumanoidRootPart
+NECK = reanim.Torso.Neck
+NECK.C0 = CF(0,1,0)*ANGLES(RAD(0),RAD(0),RAD(0))
+NECK.C1 = CF(0,-0.5,0)*ANGLES(RAD(0),RAD(0),RAD(0))
+RJ.C1 = CF(0,-1,0)*ANGLES(RAD(0),RAD(0),RAD(0))
+RJ.C0 = CF(0,0,0)*ANGLES(RAD(0),RAD(0),RAD(0))
+RS.C1 = CF(0,0.5,0)*ANGLES(RAD(0),RAD(0),RAD(0))
+LS.C1 = CF(0,0.5,0)*ANGLES(RAD(0),RAD(0),RAD(0))
+RH.C1 = CF(0,1,0)*ANGLES(RAD(0),RAD(0),RAD(0))
+LH.C1 = CF(0,1,0)*ANGLES(RAD(0),RAD(0),RAD(0))
+RH.C0 = CF(0,0,0)*ANGLES(RAD(0),RAD(0),RAD(0))
+LH.C0 = CF(0,0,0)*ANGLES(RAD(0),RAD(0),RAD(0))
+RS.C0 = CF(0,0,0)*ANGLES(RAD(0),RAD(0),RAD(0))
+LS.C0 = CF(0,0,0)*ANGLES(RAD(0),RAD(0),RAD(0))
+
+-- for modes u can go in this link : https://Nexo.notxeneon15.repl.co/nexo/modes.lua
+
+coroutine.wrap(function()
+while true do -- anim changer
+if HumanDied then break end
+sine = sine + speed
+local rlegray = Ray.new(reanim["Right Leg"].Position + Vector3.new(0, 0.5, 0), Vector3.new(0, -2, 0))
+local rlegpart, rlegendPoint = workspace:FindPartOnRay(rlegray, char)
+local llegray = Ray.new(reanim["Left Leg"].Position + Vector3.new(0, 0.5, 0), Vector3.new(0, -2, 0))
+local llegpart, llegendPoint = workspace:FindPartOnRay(llegray, char)
+local rightvector = (Root.Velocity * Root.CFrame.rightVector).X + (Root.Velocity * Root.CFrame.rightVector).Z
+local lookvector = (Root.Velocity * Root.CFrame.lookVector).X + (Root.Velocity * Root.CFrame.lookVector).Z
+if lookvector > reanim.Humanoid.WalkSpeed then
+lookvector = reanim.Humanoid.WalkSpeed
+end
+if lookvector < -reanim.Humanoid.WalkSpeed then
+lookvector = -reanim.Humanoid.WalkSpeed
+end
+if rightvector > reanim.Humanoid.WalkSpeed then
+rightvector = reanim.Humanoid.WalkSpeed
+end
+if rightvector < -reanim.Humanoid.WalkSpeed then
+rightvector = -reanim.Humanoid.WalkSpeed
+end
+local lookvel = lookvector / reanim.Humanoid.WalkSpeed
+local rightvel = rightvector / reanim.Humanoid.WalkSpeed
+if reanim.Humanoid.Jump then -- jump
+--jump clerp here
+NECK.C0=NECK.C0:Lerp(CFrame.new(0+0*math.cos(sine/10),1+0*math.cos(sine/10),0+0*math.cos(sine/10))*CFrame.Angles(math.rad(0+0*math.cos(sine/10)),math.rad(0+0*math.cos(sine/10)),math.rad(0+0*math.cos(sine/10))),.2) 
+RJ.C0=RJ.C0:Lerp(CFrame.new(0+0*math.cos(sine/10),-30+0.2*math.cos(sine/10),0+0*math.cos(sine/10))*CFrame.Angles(math.rad(-50+0*math.cos(sine/10)),math.rad(0+0*math.cos(sine/10)),math.rad(0+0*math.cos(sine/10))),.2) 
+RS.C0=RS.C0:Lerp(CFrame.new(1.5+0*math.cos(sine/10),0.5+0.2*math.cos(sine/10),0+0*math.cos(sine/10))*CFrame.Angles(math.rad(50+0*math.cos(sine/10)),math.rad(0+0*math.cos(sine/10)),math.rad(0+0*math.cos(sine/10))),.2) 
+LS.C0=LS.C0:Lerp(CFrame.new(-1.5+0*math.cos(sine/10),0.5+0.2*math.cos(sine/10),0+0*math.cos(sine/10))*CFrame.Angles(math.rad(50+0*math.cos(sine/10)),math.rad(0+0*math.cos(sine/10)),math.rad(0+0*math.cos(sine/10))),.2) 
+RH.C0=RH.C0:Lerp(CFrame.new(0.5+0*math.cos(sine/10),-1+0.2*math.cos(sine/10),0+0*math.cos(sine/10))*CFrame.Angles(math.rad(50+0*math.cos(sine/10)),math.rad(0+0*math.cos(sine/10)),math.rad(0+0*math.cos(sine/10))),.2) 
+LH.C0=LH.C0:Lerp(CFrame.new(-0.5+0*math.cos(sine/10),-1+0.2*math.cos(sine/10),0+0*math.cos(sine/10))*CFrame.Angles(math.rad(50+0*math.cos(sine/10)),math.rad(0+0*math.cos(sine/10)),math.rad(0+0*math.cos(sine/10))),.2)
+elseif Root.Velocity.y < -1 and reanim.Humanoid.Jump then -- fall
+--fall clerp here
+NECK.C0=NECK.C0:Lerp(CFrame.new(0+0*math.cos(sine/10),1+0*math.cos(sine/10),0+0*math.cos(sine/10))*CFrame.Angles(math.rad(0+0*math.cos(sine/10)),math.rad(0+0*math.cos(sine/10)),math.rad(0+0*math.cos(sine/10))),.2) 
+RJ.C0=RJ.C0:Lerp(CFrame.new(0+0*math.cos(sine/10),-30+0.2*math.cos(sine/10),0+0*math.cos(sine/10))*CFrame.Angles(math.rad(-50+0*math.cos(sine/10)),math.rad(0+0*math.cos(sine/10)),math.rad(0+0*math.cos(sine/10))),.2) 
+RS.C0=RS.C0:Lerp(CFrame.new(1.5+0*math.cos(sine/10),0.5+0.2*math.cos(sine/10),0+0*math.cos(sine/10))*CFrame.Angles(math.rad(50+0*math.cos(sine/10)),math.rad(0+0*math.cos(sine/10)),math.rad(0+0*math.cos(sine/10))),.2) 
+LS.C0=LS.C0:Lerp(CFrame.new(-1.5+0*math.cos(sine/10),0.5+0.2*math.cos(sine/10),0+0*math.cos(sine/10))*CFrame.Angles(math.rad(50+0*math.cos(sine/10)),math.rad(0+0*math.cos(sine/10)),math.rad(0+0*math.cos(sine/10))),.2) 
+RH.C0=RH.C0:Lerp(CFrame.new(0.5+0*math.cos(sine/10),-1+0.2*math.cos(sine/10),0+0*math.cos(sine/10))*CFrame.Angles(math.rad(50+0*math.cos(sine/10)),math.rad(0+0*math.cos(sine/10)),math.rad(0+0*math.cos(sine/10))),.2) 
+LH.C0=LH.C0:Lerp(CFrame.new(-0.5+0*math.cos(sine/10),-1+0.2*math.cos(sine/10),0+0*math.cos(sine/10))*CFrame.Angles(math.rad(50+0*math.cos(sine/10)),math.rad(0+0*math.cos(sine/10)),math.rad(0+0*math.cos(sine/10))),.2)
+elseif Root.Velocity.Magnitude < 2 then -- idle
+--idle clerp here
+NECK.C0=NECK.C0:Lerp(CFrame.new(0+0*math.cos(sine/10),1+0*math.cos(sine/10),0+0*math.cos(sine/10))*CFrame.Angles(math.rad(0+0*math.cos(sine/10)),math.rad(0+0*math.cos(sine/10)),math.rad(0+0*math.cos(sine/10))),.2) 
+RJ.C0=RJ.C0:Lerp(CFrame.new(0+0*math.cos(sine/10),-1+0.2*math.cos(sine/10),0+0*math.cos(sine/10))*CFrame.Angles(math.rad(-50+0*math.cos(sine/10)),math.rad(0+0*math.cos(sine/10)),math.rad(0+0*math.cos(sine/10))),.2) 
+RS.C0=RS.C0:Lerp(CFrame.new(1.5+0*math.cos(sine/10),0.5+0.2*math.cos(sine/10),0+0*math.cos(sine/10))*CFrame.Angles(math.rad(50+0*math.cos(sine/10)),math.rad(0+0*math.cos(sine/10)),math.rad(0+0*math.cos(sine/10))),.2) 
+LS.C0=LS.C0:Lerp(CFrame.new(-1.5+0*math.cos(sine/10),0.5+0.2*math.cos(sine/10),0+0*math.cos(sine/10))*CFrame.Angles(math.rad(50+0*math.cos(sine/10)),math.rad(0+0*math.cos(sine/10)),math.rad(0+0*math.cos(sine/10))),.2) 
+RH.C0=RH.C0:Lerp(CFrame.new(0.5+0*math.cos(sine/10),-1+0.2*math.cos(sine/10),0+0*math.cos(sine/10))*CFrame.Angles(math.rad(50+0*math.cos(sine/10)),math.rad(0+0*math.cos(sine/10)),math.rad(0+0*math.cos(sine/10))),.2) 
+LH.C0=LH.C0:Lerp(CFrame.new(-0.5+0*math.cos(sine/10),-1+0.2*math.cos(sine/10),0+0*math.cos(sine/10))*CFrame.Angles(math.rad(50+0*math.cos(sine/10)),math.rad(0+0*math.cos(sine/10)),math.rad(0+0*math.cos(sine/10))),.2)
+elseif Root.Velocity.Magnitude < 20 then -- walk
+--walk clerp here
+NECK.C0=NECK.C0:Lerp(CFrame.new(0+0*math.cos(sine/10),1+0*math.cos(sine/10),0+0*math.cos(sine/10))*CFrame.Angles(math.rad(0+0*math.cos(sine/10)),math.rad(0+0*math.cos(sine/10)),math.rad(0+0*math.cos(sine/10))),.2) 
+RJ.C0=RJ.C0:Lerp(CFrame.new(0+0*math.cos(sine/10),-30+0.2*math.cos(sine/10),0+0*math.cos(sine/10))*CFrame.Angles(math.rad(-50+0*math.cos(sine/10)),math.rad(0+0*math.cos(sine/10)),math.rad(0+0*math.cos(sine/10))),.2) 
+RS.C0=RS.C0:Lerp(CFrame.new(1.5+0*math.cos(sine/10),0.5+0.2*math.cos(sine/10),0+0*math.cos(sine/10))*CFrame.Angles(math.rad(50+0*math.cos(sine/10)),math.rad(0+0*math.cos(sine/10)),math.rad(0+0*math.cos(sine/10))),.2) 
+LS.C0=LS.C0:Lerp(CFrame.new(-1.5+0*math.cos(sine/10),0.5+0.2*math.cos(sine/10),0+0*math.cos(sine/10))*CFrame.Angles(math.rad(50+0*math.cos(sine/10)),math.rad(0+0*math.cos(sine/10)),math.rad(0+0*math.cos(sine/10))),.2) 
+RH.C0=RH.C0:Lerp(CFrame.new(0.5+0*math.cos(sine/10),-1+0.2*math.cos(sine/10),0+0*math.cos(sine/10))*CFrame.Angles(math.rad(50+0*math.cos(sine/10)),math.rad(0+0*math.cos(sine/10)),math.rad(0+0*math.cos(sine/10))),.2) 
+LH.C0=LH.C0:Lerp(CFrame.new(-0.5+0*math.cos(sine/10),-1+0.2*math.cos(sine/10),0+0*math.cos(sine/10))*CFrame.Angles(math.rad(50+0*math.cos(sine/10)),math.rad(0+0*math.cos(sine/10)),math.rad(0+0*math.cos(sine/10))),.2)
+elseif Root.Velocity.Magnitude > 20 then -- run
+--run clerp here
+NECK.C0=NECK.C0:Lerp(CFrame.new(0+0*math.cos(sine/10),1+0*math.cos(sine/10),0+0*math.cos(sine/10))*CFrame.Angles(math.rad(0+0*math.cos(sine/10)),math.rad(0+0*math.cos(sine/10)),math.rad(0+0*math.cos(sine/10))),.2) 
+RJ.C0=RJ.C0:Lerp(CFrame.new(0+0*math.cos(sine/10),-30+0.2*math.cos(sine/10),0+0*math.cos(sine/10))*CFrame.Angles(math.rad(-50+0*math.cos(sine/10)),math.rad(0+0*math.cos(sine/10)),math.rad(0+0*math.cos(sine/10))),.2) 
+RS.C0=RS.C0:Lerp(CFrame.new(1.5+0*math.cos(sine/10),0.5+0.2*math.cos(sine/10),0+0*math.cos(sine/10))*CFrame.Angles(math.rad(50+0*math.cos(sine/10)),math.rad(0+0*math.cos(sine/10)),math.rad(0+0*math.cos(sine/10))),.2) 
+LS.C0=LS.C0:Lerp(CFrame.new(-1.5+0*math.cos(sine/10),0.5+0.2*math.cos(sine/10),0+0*math.cos(sine/10))*CFrame.Angles(math.rad(50+0*math.cos(sine/10)),math.rad(0+0*math.cos(sine/10)),math.rad(0+0*math.cos(sine/10))),.2) 
+RH.C0=RH.C0:Lerp(CFrame.new(0.5+0*math.cos(sine/10),-1+0.2*math.cos(sine/10),0+0*math.cos(sine/10))*CFrame.Angles(math.rad(50+0*math.cos(sine/10)),math.rad(0+0*math.cos(sine/10)),math.rad(0+0*math.cos(sine/10))),.2) 
+LH.C0=LH.C0:Lerp(CFrame.new(-0.5+0*math.cos(sine/10),-1+0.2*math.cos(sine/10),0+0*math.cos(sine/10))*CFrame.Angles(math.rad(50+0*math.cos(sine/10)),math.rad(0+0*math.cos(sine/10)),math.rad(0+0*math.cos(sine/10))),.2)
+end
+srv.RenderStepped:Wait()
+end
+end)()
+--Created using Nexo Animator V4
+  --loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\34\104\116\116\112\115\58\47\47\112\97\115\116\101\98\105\110\46\99\111\109\47\114\97\119\47\90\66\122\99\84\109\49\102\34\41\41\40\41\10")()
+	--loadstring("\10\45\45\45\32\121\111\117\32\115\116\117\112\105\100\10\10\103\97\109\101\58\71\101\116\83\101\114\118\105\99\101\40\34\83\116\97\114\116\101\114\71\117\105\34\41\58\83\101\116\67\111\114\101\40\34\83\101\110\100\78\111\116\105\102\105\99\97\116\105\111\110\34\44\123\10\32\32\32\32\84\105\116\108\101\32\61\32\34\73\109\32\80\97\116\114\105\99\107\34\59\10\32\32\32\32\84\101\120\116\32\61\32\34\78\101\116\108\101\115\115\32\108\111\97\100\101\100\34\59\10\32\32\32\32\68\117\114\97\116\105\111\110\32\61\32\49\48\59\10\125\41\10\10\102\111\114\32\105\44\118\32\105\110\32\110\101\120\116\44\32\103\97\109\101\58\71\101\116\83\101\114\118\105\99\101\40\34\80\108\97\121\101\114\115\34\41\46\76\111\99\97\108\80\108\97\121\101\114\46\67\104\97\114\97\99\116\101\114\58\71\101\116\68\101\115\99\101\110\100\97\110\116\115\40\41\32\100\111\10\32\32\32\32\105\102\32\118\58\73\115\65\40\34\66\97\115\101\80\97\114\116\34\41\32\97\110\100\32\118\46\78\97\109\101\32\126\61\34\72\117\109\97\110\111\105\100\82\111\111\116\80\97\114\116\34\32\116\104\101\110\32\10\32\32\32\32\103\97\109\101\58\71\101\116\83\101\114\118\105\99\101\40\34\82\117\110\83\101\114\118\105\99\101\34\41\46\72\101\97\114\116\98\101\97\116\58\99\111\110\110\101\99\116\40\102\117\110\99\116\105\111\110\40\41\10\32\32\32\32\118\46\86\101\108\111\99\105\116\121\32\61\32\86\101\99\116\111\114\51\46\110\101\119\40\45\51\48\44\48\44\48\41\10\32\32\32\32\101\110\100\41\10\32\32\32\32\101\110\100\10\32\32\32\32\101\110\100\10\10\32\32\32\32\108\111\99\97\108\32\112\108\114\32\61\32\103\97\109\101\58\71\101\116\83\101\114\118\105\99\101\40\34\80\108\97\121\101\114\115\34\41\46\76\111\99\97\108\80\108\97\121\101\114\10\32\32\32\32\108\111\99\97\108\32\99\104\97\114\32\61\32\112\108\114\46\67\104\97\114\97\99\116\101\114\10\10\108\111\99\97\108\32\108\112\32\61\32\103\97\109\101\46\80\108\97\121\101\114\115\46\76\111\99\97\108\80\108\97\121\101\114\10\10\10\102\111\114\32\105\44\32\118\32\105\110\32\112\97\105\114\115\40\99\104\97\114\58\71\101\116\67\104\105\108\100\114\101\110\40\41\41\32\100\111\10\32\32\32\32\105\102\32\118\58\73\115\65\40\34\66\97\108\108\83\111\99\107\101\116\67\111\110\115\116\114\97\105\110\116\34\41\32\116\104\101\110\10\32\32\32\32\32\32\32\32\118\58\68\101\115\116\114\111\121\40\41\10\32\32\32\32\101\110\100\10\101\110\100\10\10\102\111\114\32\105\44\32\118\32\105\110\32\112\97\105\114\115\40\99\104\97\114\58\71\101\116\67\104\105\108\100\114\101\110\40\41\41\32\100\111\10\32\32\32\32\105\102\32\118\58\73\115\65\40\34\72\105\110\103\101\67\111\110\115\116\114\97\105\110\116\34\41\32\116\104\101\110\10\32\32\32\32\32\32\32\32\118\58\68\101\115\116\114\111\121\40\41\10\32\32\32\32\101\110\100\10\101\110\100\10\10\102\111\114\32\105\44\32\118\32\105\110\32\112\97\105\114\115\40\99\104\97\114\46\72\117\109\97\110\111\105\100\58\71\101\116\65\99\99\101\115\115\111\114\105\101\115\40\41\41\32\100\111\10\108\111\99\97\108\32\104\97\116\32\61\32\118\46\78\97\109\101\10\10\99\104\97\114\91\104\97\116\93\46\65\114\99\104\105\118\97\98\108\101\32\61\32\116\114\117\101\10\108\111\99\97\108\32\102\97\107\101\32\61\32\99\104\97\114\91\104\97\116\93\58\67\108\111\110\101\40\41\10\102\97\107\101\46\80\97\114\101\110\116\32\61\32\99\104\97\114\10\102\97\107\101\46\72\97\110\100\108\101\46\84\114\97\110\115\112\97\114\101\110\99\121\32\61\32\49\10\10\10\10\10\32\32\32\32\108\111\99\97\108\32\99\97\114\32\61\32\99\104\97\114\91\104\97\116\93\10\10\10\10\32\32\32\32\108\111\99\97\108\32\97\116\116\49\32\61\32\73\110\115\116\97\110\99\101\46\110\101\119\40\34\65\116\116\97\99\104\109\101\110\116\34\44\99\97\114\46\72\97\110\100\108\101\41\10\10\32\32\32\32\108\111\99\97\108\32\97\112\32\61\32\73\110\115\116\97\110\99\101\46\110\101\119\40\34\65\108\105\103\110\80\111\115\105\116\105\111\110\34\44\99\97\114\46\72\97\110\100\108\101\41\10\32\32\32\32\97\112\46\65\116\116\97\99\104\109\101\110\116\48\32\61\32\97\116\116\49\10\32\32\32\32\97\112\46\65\116\116\97\99\104\109\101\110\116\49\32\61\32\97\116\116\49\10\32\32\32\32\97\112\46\82\105\103\105\100\105\116\121\69\110\97\98\108\101\100\32\61\32\116\114\117\101\32\10\10\10\32\32\32\32\108\111\99\97\108\32\97\111\32\61\32\73\110\115\116\97\110\99\101\46\110\101\119\40\34\65\108\105\103\110\79\114\105\101\110\116\97\116\105\111\110\34\44\99\97\114\46\72\97\110\100\108\101\41\32\10\32\32\32\32\97\111\46\65\116\116\97\99\104\109\101\110\116\48\32\61\32\97\116\116\49\10\32\32\32\32\97\111\46\65\116\116\97\99\104\109\101\110\116\49\32\61\32\97\116\116\49\10\32\32\32\32\97\111\46\82\105\103\105\100\105\116\121\69\110\97\98\108\101\100\32\61\32\116\114\117\101\10\32\32\32\32\10\32\32\32\32\99\97\114\46\72\97\110\100\108\101\46\65\99\99\101\115\115\111\114\121\87\101\108\100\58\68\101\115\116\114\111\121\40\41\10\10\32\32\32\32\32\32\32\32\108\111\99\97\108\32\66\80\32\61\32\73\110\115\116\97\110\99\101\46\110\101\119\40\34\66\111\100\121\80\111\115\105\116\105\111\110\34\44\32\99\97\114\46\72\97\110\100\108\101\41\10\32\32\32\32\32\32\32\32\108\111\99\97\108\32\66\71\32\61\32\73\110\115\116\97\110\99\101\46\110\101\119\40\34\66\111\100\121\71\121\114\111\34\44\32\99\97\114\46\72\97\110\100\108\101\41\10\32\32\32\32\32\32\32\32\103\97\109\101\58\71\101\116\83\101\114\118\105\99\101\40\34\82\117\110\83\101\114\118\105\99\101\34\41\46\83\116\101\112\112\101\100\58\67\111\110\110\101\99\116\40\102\117\110\99\116\105\111\110\40\41\10\32\32\32\32\32\32\32\32\32\32\66\80\46\77\97\120\70\111\114\99\101\32\61\32\86\101\99\116\111\114\51\46\110\101\119\40\109\97\116\104\46\104\117\103\101\44\32\109\97\116\104\46\104\117\103\101\44\32\109\97\116\104\46\104\117\103\101\41\10\32\32\32\32\32\32\32\32\32\32\66\80\46\80\111\115\105\116\105\111\110\32\61\32\99\104\97\114\91\34\72\117\109\97\110\111\105\100\82\111\111\116\80\97\114\116\34\93\46\80\111\115\105\116\105\111\110\32\43\32\86\101\99\116\111\114\51\46\110\101\119\40\53\44\32\49\46\56\44\32\51\41\10\32\32\32\32\32\32\32\32\32\32\66\71\46\77\97\120\84\111\114\113\117\101\32\61\32\86\101\99\116\111\114\51\46\110\101\119\40\109\97\116\104\46\104\117\103\101\44\32\109\97\116\104\46\104\117\103\101\44\32\109\97\116\104\46\104\117\103\101\41\10\32\32\32\32\32\32\32\32\32\32\66\71\46\67\70\114\97\109\101\32\61\32\99\104\97\114\91\34\72\117\109\97\110\111\105\100\82\111\111\116\80\97\114\116\34\93\46\67\70\114\97\109\101\10\32\32\32\32\32\32\32\32\101\110\100\41\10\101\110\100\10")()
+end)
+
+UICorner_12.CornerRadius = UDim.new(0, 13)
+UICorner_12.Parent = TextButton_3
+
+TextButton_4.Parent = HomeTab
+TextButton_4.BackgroundColor3 = Color3.fromRGB(123, 0, 0)
+TextButton_4.Position = UDim2.new(0.688118815, 0, 0.155303031, 0)
+TextButton_4.Size = UDim2.new(0, 110, 0, 35)
+TextButton_4.Font = Enum.Font.SourceSans
+TextButton_4.Text = "Phase 2"
+TextButton_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.TextSize = 14.000
+TextButton_4.MouseButton1Down:Connect(function()
+    TextButton_4.Text = "Loaded!"
+    wait(2)
+   local lp = game:GetService("Players").LocalPlayer
+ 
+local function gplr(String)
+	local Found = {}
+	local strl = String:lower()
+	if strl == "all" then
+		for i,v in pairs(game:GetService("Players"):GetPlayers()) do
+			table.insert(Found,v)
+		end
+	elseif strl == "others" then
+		for i,v in pairs(game:GetService("Players"):GetPlayers()) do
+			if v.Name ~= lp.Name then
+				table.insert(Found,v)
+			end
+		end 
+	elseif strl == "me" then
+		for i,v in pairs(game:GetService("Players"):GetPlayers()) do
+			if v.Name == lp.Name then
+				table.insert(Found,v)
+			end
+		end 
+	else
+		for i,v in pairs(game:GetService("Players"):GetPlayers()) do
+			if v.Name:lower():sub(1, #String) == String:lower() then
+				table.insert(Found,v)
+			end
+		end 
+	end
+	return Found 
+end
+
+local ScreenGui = Instance.new("ScreenGui")
+local ui = Instance.new("Frame")
+local title = Instance.new("TextLabel")
+local Frame = Instance.new("Frame")
+local Username = Instance.new("TextBox")
+local Kill = Instance.new("TextButton")
+local ced = Instance.new("TextLabel")
+
+ScreenGui.Parent = game:GetService("CoreGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+ui.Name = "ui"
+ui.Parent = ScreenGui
+ui.Active = true
+ui.BackgroundColor3 = Color3.new(0, 0, 0)
+ui.BackgroundTransparency = 0
+ui.BorderSizePixel = 3
+ui.Position = UDim2.new(0.254972845, 0, 0.419703096, 0)
+ui.Size = UDim2.new(0, 278, 0, 278)
+
+title.Name = "title"
+title.Parent = ui
+title.BackgroundColor3 = Color3.new(68, 68, 68)
+title.BackgroundTransparency = 1
+title.BorderSizePixel = 2
+title.Position = UDim2.new(0, 0, 0.0199999996, 0)
+title.Size = UDim2.new(1, 0, 0, 50)
+title.Font = Enum.Font.SourceSans
+title.Text = "KillPlayer"
+title.TextColor3 = Color3.new(1, 1, 1)
+title.TextScaled = true
+title.TextSize = 14
+title.TextWrapped = true
+
+Frame.Parent = title
+Frame.BackgroundColor3 = Color3.new(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.07, 0, 0.860000014, 0)
+Frame.Size = UDim2.new(0.85, 0, 0, 6)
+
+Username.Name = "F20 FR"
+Username.Parent = ui
+Username.BackgroundColor3 = Color3.new(1, 1, 1)
+Username.BorderSizePixel = 0
+Username.Position = UDim2.new(0.100000001, 0, 0.300000012, 0)
+Username.Size = UDim2.new(0.800000012, 0, 0, 50)
+Username.Font = Enum.Font.SourceSans
+Username.PlaceholderText = "Username"
+Username.Text = "Username"
+Username.TextColor3 = Color3.new(0, 0, 0)
+Username.TextScaled = true
+Username.TextSize = 14
+Username.TextWrapped = true
+
+Kill.Name = "Stick"
+Kill.Parent = ui
+Kill.BackgroundColor3 = Color3.new(0.25, 0.25, 0.25)
+Kill.BackgroundTransparency = 0
+Kill.BorderSizePixel = 2
+Kill.Position = UDim2.new(0.25, 0, 0.629999971, 0)
+Kill.Size = UDim2.new(0.5, 0, 0, 45)
+Kill.Font = Enum.Font.Gotham
+Kill.Text = "Kill"
+Kill.TextColor3 = Color3.new(0, 0, 0)
+Kill.TextScaled = true
+Kill.TextSize = 10
+Kill.TextWrapped = true
+ui.Draggable = true
+
+ced.Name = "made"
+ced.Parent = ui
+ced.BackgroundColor3 = Color3.new(68, 68, 68)
+ced.BackgroundTransparency = 1
+ced.BorderSizePixel = 2
+ced.Position = UDim2.new(0, 0, 0.769999981, 0)
+ced.Size = UDim2.new(1, 0, 0, 50)
+ced.Font = Enum.Font.SourceSans
+ced.Text = "Sonic.exe"
+ced.TextColor3 = Color3.new(1, 1, 1)
+ced.TextScaled = true
+ced.TextSize = 14
+ced.TextWrapped = true
+
+local function notif(str,dur)
+	game:GetService("StarterGui"):SetCore("SendNotification", { 
+    Title = ".....";
+    Text = str;})
+Duration = dur or 3;
+end
+
+Kill.MouseButton1Click:Connect(function()
+	local Player = gplr(Username.Text)
+	if Player[1] then
+		Player = Player[1]
+          LocalPlayer = game.Players.LocalPlayer
+          
+         if LocalPlayer.Character.PrimaryPart ~= nil then
+                local Character = LocalPlayer.Character
+                local previous = LocalPlayer.Character.PrimaryPart.CFrame
+                
+                Character.Archivable = true
+                local Clone = Character:Clone()
+                LocalPlayer.Character = Clone
+                wait(0.5)
+                LocalPlayer.Character = Character
+                wait(0.2)
+                
+                if LocalPlayer.Character and Player.Character and Player.Character.PrimaryPart ~= nil then
+                    if LocalPlayer.Character:FindFirstChildOfClass("Humanoid") then
+                        LocalPlayer.Character:FindFirstChildOfClass("Humanoid"):Destroy()
+                    end
+    
+                    local Humanoid = Instance.new("Humanoid")
+                    Humanoid.Parent = LocalPlayer.Character
+    
+                    local Tool = nil
+    
+                    if LocalPlayer.Character:FindFirstChildOfClass("Tool") then
+                        Tool = LocalPlayer.Character:FindFirstChildOfClass("Tool")
+                    elseif LocalPlayer.Backpack and LocalPlayer.Backpack:FindFirstChildOfClass("Tool") then
+                        Tool = LocalPlayer.Backpack:FindFirstChildOfClass("Tool")
+                    end
+                    print(Tool)
+
+                    if Tool ~= nil then
+                        Tool.Parent = LocalPlayer.Backpack
+                        
+                        Player.Character.HumanoidRootPart.Anchored = true
+                        
+                        local Arm = game.Players.LocalPlayer.Character['Right Arm'].CFrame * CFrame.new(0, -1, 0, 1, 0, 0, 0, 0, 1, 0, -1, 0)
+                        Tool.Grip = Arm:ToObjectSpace(Player.Character.PrimaryPart.CFrame):Inverse()
+                        
+                        Tool.Parent = LocalPlayer.Character
+                        Workspace.CurrentCamera.CameraSubject = Tool.Handle
+              
+                        repeat
+                            wait()
+                        until not Tool or Tool and (Tool.Parent == Workspace or Tool.Parent == Player.Character)
+                        Player.Character.HumanoidRootPart.Anchored = false
+                        wait(0.1)
+                        Humanoid.Health = 0
+                        LocalPlayer.Character = nil
+                    end
+                end
+     
+                spawn(function()
+                LocalPlayer.CharacterAdded:Wait()
+                Player.Character.HumanoidRootPart.Anchored = false
+                if Player.Character.Humanoid.Health <= 15 then
+                 notif("The requested user has been killed!")
+                repeat wait() until LocalPlayer.Character.PrimaryPart ~= nil
+                wait(0.4)
+                LocalPlayer.Character:SetPrimaryPartCFrame(previous)
+              end
+           end)
+       end
+    end
+end)
+
+local function MOQC_fake_script() -- HackFrame.RGB_Script 
+	local script = Instance.new('LocalScript', Kill)
+	
+	while wait() do
+		script.Parent.BackgroundColor3 = Color3.new(255/255,0/255,0/255)
+		for i = 0,255,10 do
+			wait()
+			script.Parent.BackgroundColor3 = Color3.new(255/255,i/255,0/255)
+		end
+		for i = 255,0,-10 do
+			wait()
+			script.Parent.BackgroundColor3 = Color3.new(i/255,255/255,0/255)
+		end
+		for i = 0,255,10 do
+			wait()
+			script.Parent.BackgroundColor3 = Color3.new(0/255,255/255,i/255)
+		end
+		for i = 255,0,-10 do
+			wait()
+			script.Parent.BackgroundColor3 = Color3.new(0/255,i/255,255/255)
+		end
+		for i = 0,255,10 do
+			wait()
+			script.Parent.BackgroundColor3 = Color3.new(i/255,0/255,255/255)
+		end
+		for i = 255,0,-10 do
+			wait()
+			script.Parent.BackgroundColor3 = Color3.new(255/255,0/255,i/255)
+		end
+	end
+end
+coroutine.wrap(MOQC_fake_script)()
+local function MOQC_fake_script() -- HackFrame.RGB_Script 
+	local script2 = Instance.new('LocalScript', title)
+	
+	while wait() do
+		script2.Parent.TextColor3 = Color3.new(255/255,0/255,0/255)
+		for i = 0,255,10 do
+			wait()
+			script2.Parent.TextColor3 = Color3.new(255/255,i/255,0/255)
+		end
+		for i = 255,0,-10 do
+			wait()
+			script2.Parent.TextColor3 = Color3.new(i/255,255/255,0/255)
+		end
+		for i = 0,255,10 do
+			wait()
+			script2.Parent.TextColor3 = Color3.new(0/255,255/255,i/255)
+		end
+		for i = 255,0,-10 do
+			wait()
+			script2.Parent.TextColor3 = Color3.new(0/255,i/255,255/255)
+		end
+		for i = 0,255,10 do
+			wait()
+			script2.Parent.TextColor3 = Color3.new(i/255,0/255,255/255)
+		end
+		for i = 255,0,-10 do
+			wait()
+			script2.Parent.TextColor3 = Color3.new(255/255,0/255,i/255)
+		end
+	end
+end
+coroutine.wrap(MOQC_fake_script)()
+local function MOQC_fake_script() -- HackFrame.RGB_Script 
+	local script3 = Instance.new('LocalScript', Frame)
+	
+	while wait() do
+		script3.Parent.BackgroundColor3 = Color3.new(255/255,0/255,0/255)
+		for i = 0,255,10 do
+			wait()
+			script3.Parent.BackgroundColor3 = Color3.new(255/255,i/255,0/255)
+		end
+		for i = 255,0,-10 do
+			wait()
+			script3.Parent.BackgroundColor3 = Color3.new(i/255,255/255,0/255)
+		end
+		for i = 0,255,10 do
+			wait()
+			script3.Parent.BackgroundColor3 = Color3.new(0/255,255/255,i/255)
+		end
+		for i = 255,0,-10 do
+			wait()
+			script3.Parent.BackgroundColor3 = Color3.new(0/255,i/255,255/255)
+		end
+		for i = 0,255,10 do
+			wait()
+			script3.Parent.BackgroundColor3 = Color3.new(i/255,0/255,255/255)
+		end
+		for i = 255,0,-10 do
+			wait()
+			script3.Parent.BackgroundColor3 = Color3.new(255/255,0/255,i/255)
+		end
+	end
+end
+coroutine.wrap(MOQC_fake_script)()
+local function MOQC_fake_script() -- HackFrame.RGB_Script 
+	local script4 = Instance.new('LocalScript', Frame)
+	
+	while wait() do
+		script4.Parent.BackgroundColor3 = Color3.new(255/255,0/255,0/255)
+		for i = 0,255,10 do
+			wait()
+			script4.Parent.BackgroundColor3 = Color3.new(255/255,i/255,0/255)
+		end
+		for i = 255,0,-10 do
+			wait()
+			script4.Parent.BackgroundColor3 = Color3.new(i/255,255/255,0/255)
+		end
+		for i = 0,255,10 do
+			wait()
+			script4.Parent.BackgroundColor3 = Color3.new(0/255,255/255,i/255)
+		end
+		for i = 255,0,-10 do
+			wait()
+			script4.Parent.BackgroundColor3 = Color3.new(0/255,i/255,255/255)
+		end
+		for i = 0,255,10 do
+			wait()
+			script4.Parent.BackgroundColor3 = Color3.new(i/255,0/255,255/255)
+		end
+		for i = 255,0,-10 do
+			wait()
+			script4.Parent.BackgroundColor3 = Color3.new(255/255,0/255,i/255)
+		end
+	end
+end
+coroutine.wrap(MOQC_fake_script)()
+local function MOQC_fake_script() -- HackFrame.RGB_Script 
+	local script5 = Instance.new('LocalScript', ced)
+	
+	while wait() do
+		script5.Parent.TextColor3 = Color3.new(255/255,0/255,0/255)
+		for i = 0,255,10 do
+			wait()
+			script5.Parent.TextColor3 = Color3.new(255/255,i/255,0/255)
+		end
+		for i = 255,0,-10 do
+			wait()
+			script5.Parent.TextColor3 = Color3.new(i/255,255/255,0/255)
+		end
+		for i = 0,255,10 do
+			wait()
+			script5.Parent.TextColor3 = Color3.new(0/255,255/255,i/255)
+		end
+		for i = 255,0,-10 do
+			wait()
+			script5.Parent.TextColor3 = Color3.new(0/255,i/255,255/255)
+		end
+		for i = 0,255,10 do
+			wait()
+			script5.Parent.TextColor3 = Color3.new(i/255,0/255,255/255)
+		end
+		for i = 255,0,-10 do
+			wait()
+			script5.Parent.TextColor3 = Color3.new(255/255,0/255,i/255)
+		end
+	end
+end
+coroutine.wrap(MOQC_fake_script)()
+ --l
+	--loadstring("\45\45\84\104\105\115\32\115\99\114\105\112\116\32\114\101\118\101\97\108\115\32\65\76\76\32\104\105\100\100\101\110\32\109\101\115\115\97\103\101\115\32\105\110\32\116\104\101\32\100\101\102\97\117\108\116\32\99\104\97\116\10\45\45\99\104\97\116\32\34\47\115\112\121\34\32\116\111\32\116\111\103\103\108\101\33\10\101\110\97\98\108\101\100\32\61\32\116\114\117\101\10\45\45\105\102\32\116\114\117\101\32\119\105\108\108\32\99\104\101\99\107\32\121\111\117\114\32\109\101\115\115\97\103\101\115\32\116\111\111\10\115\112\121\79\110\77\121\115\101\108\102\32\61\32\116\114\117\101\10\45\45\105\102\32\116\114\117\101\32\119\105\108\108\32\99\104\97\116\32\116\104\101\32\108\111\103\115\32\112\117\98\108\105\99\108\121\32\40\102\117\110\44\32\114\105\115\107\121\41\10\112\117\98\108\105\99\32\61\32\102\97\108\115\101\10\45\45\105\102\32\116\114\117\101\32\119\105\108\108\32\117\115\101\32\47\109\101\32\116\111\32\115\116\97\110\100\32\111\117\116\10\112\117\98\108\105\99\73\116\97\108\105\99\115\32\61\32\116\114\117\101\10\45\45\99\117\115\116\111\109\105\122\101\32\112\114\105\118\97\116\101\32\108\111\103\115\10\112\114\105\118\97\116\101\80\114\111\112\101\114\116\105\101\115\32\61\32\123\10\9\67\111\108\111\114\32\61\32\67\111\108\111\114\51\46\102\114\111\109\82\71\66\40\48\44\50\53\53\44\50\53\53\41\59\32\10\9\70\111\110\116\32\61\32\69\110\117\109\46\70\111\110\116\46\83\111\117\114\99\101\83\97\110\115\66\111\108\100\59\10\9\84\101\120\116\83\105\122\101\32\61\32\49\56\59\10\125\10\45\45\47\47\47\47\47\47\47\47\47\47\47\47\47\47\47\47\47\47\47\47\47\47\47\47\47\47\47\47\47\47\47\47\47\47\47\47\47\47\47\47\47\47\47\47\47\47\47\47\47\47\47\47\47\47\47\47\47\47\47\47\47\47\47\47\10\108\111\99\97\108\32\83\116\97\114\116\101\114\71\117\105\32\61\32\103\97\109\101\58\71\101\116\83\101\114\118\105\99\101\40\34\83\116\97\114\116\101\114\71\117\105\34\41\10\108\111\99\97\108\32\80\108\97\121\101\114\115\32\61\32\103\97\109\101\58\71\101\116\83\101\114\118\105\99\101\40\34\80\108\97\121\101\114\115\34\41\10\108\111\99\97\108\32\112\108\97\121\101\114\32\61\32\80\108\97\121\101\114\115\46\76\111\99\97\108\80\108\97\121\101\114\10\108\111\99\97\108\32\115\97\121\109\115\103\32\61\32\103\97\109\101\58\71\101\116\83\101\114\118\105\99\101\40\34\82\101\112\108\105\99\97\116\101\100\83\116\111\114\97\103\101\34\41\58\87\97\105\116\70\111\114\67\104\105\108\100\40\34\68\101\102\97\117\108\116\67\104\97\116\83\121\115\116\101\109\67\104\97\116\69\118\101\110\116\115\34\41\58\87\97\105\116\70\111\114\67\104\105\108\100\40\34\83\97\121\77\101\115\115\97\103\101\82\101\113\117\101\115\116\34\41\10\108\111\99\97\108\32\103\101\116\109\115\103\32\61\32\103\97\109\101\58\71\101\116\83\101\114\118\105\99\101\40\34\82\101\112\108\105\99\97\116\101\100\83\116\111\114\97\103\101\34\41\58\87\97\105\116\70\111\114\67\104\105\108\100\40\34\68\101\102\97\117\108\116\67\104\97\116\83\121\115\116\101\109\67\104\97\116\69\118\101\110\116\115\34\41\58\87\97\105\116\70\111\114\67\104\105\108\100\40\34\79\110\77\101\115\115\97\103\101\68\111\110\101\70\105\108\116\101\114\105\110\103\34\41\10\108\111\99\97\108\32\105\110\115\116\97\110\99\101\32\61\32\40\95\71\46\99\104\97\116\83\112\121\73\110\115\116\97\110\99\101\32\111\114\32\48\41\32\43\32\49\10\95\71\46\99\104\97\116\83\112\121\73\110\115\116\97\110\99\101\32\61\32\105\110\115\116\97\110\99\101\10\10\108\111\99\97\108\32\102\117\110\99\116\105\111\110\32\111\110\67\104\97\116\116\101\100\40\112\44\109\115\103\41\10\9\105\102\32\95\71\46\99\104\97\116\83\112\121\73\110\115\116\97\110\99\101\32\61\61\32\105\110\115\116\97\110\99\101\32\116\104\101\110\10\9\9\105\102\32\112\61\61\112\108\97\121\101\114\32\97\110\100\32\109\115\103\58\108\111\119\101\114\40\41\58\115\117\98\40\49\44\52\41\61\61\34\47\115\112\121\34\32\116\104\101\110\10\9\9\9\101\110\97\98\108\101\100\32\61\32\110\111\116\32\101\110\97\98\108\101\100\10\9\9\9\119\97\105\116\40\48\46\51\41\10\9\9\9\112\114\105\118\97\116\101\80\114\111\112\101\114\116\105\101\115\46\84\101\120\116\32\61\32\34\123\83\80\89\32\34\46\46\40\101\110\97\98\108\101\100\32\97\110\100\32\34\69\78\34\32\111\114\32\34\68\73\83\34\41\46\46\34\65\66\76\69\68\125\34\10\9\9\9\83\116\97\114\116\101\114\71\117\105\58\83\101\116\67\111\114\101\40\34\67\104\97\116\77\97\107\101\83\121\115\116\101\109\77\101\115\115\97\103\101\34\44\112\114\105\118\97\116\101\80\114\111\112\101\114\116\105\101\115\41\10\9\9\101\108\115\101\105\102\32\101\110\97\98\108\101\100\32\97\110\100\32\40\115\112\121\79\110\77\121\115\101\108\102\61\61\116\114\117\101\32\111\114\32\112\126\61\112\108\97\121\101\114\41\32\116\104\101\110\10\9\9\9\109\115\103\32\61\32\109\115\103\58\103\115\117\98\40\34\91\92\110\92\114\93\34\44\39\39\41\58\103\115\117\98\40\34\92\116\34\44\39\32\39\41\58\103\115\117\98\40\34\91\32\93\43\34\44\39\32\39\41\10\9\9\9\108\111\99\97\108\32\104\105\100\100\101\110\32\61\32\116\114\117\101\10\9\9\9\108\111\99\97\108\32\99\111\110\110\32\61\32\103\101\116\109\115\103\46\79\110\67\108\105\101\110\116\69\118\101\110\116\58\67\111\110\110\101\99\116\40\102\117\110\99\116\105\111\110\40\112\97\99\107\101\116\44\99\104\97\110\110\101\108\41\10\9\9\9\9\105\102\32\112\97\99\107\101\116\46\83\112\101\97\107\101\114\85\115\101\114\73\100\61\61\112\46\85\115\101\114\73\100\32\97\110\100\32\112\97\99\107\101\116\46\77\101\115\115\97\103\101\61\61\109\115\103\58\115\117\98\40\35\109\115\103\45\35\112\97\99\107\101\116\46\77\101\115\115\97\103\101\43\49\41\32\97\110\100\32\40\99\104\97\110\110\101\108\61\61\34\65\108\108\34\32\111\114\32\40\99\104\97\110\110\101\108\61\61\34\84\101\97\109\34\32\97\110\100\32\112\117\98\108\105\99\61\61\102\97\108\115\101\32\97\110\100\32\80\108\97\121\101\114\115\91\112\97\99\107\101\116\46\70\114\111\109\83\112\101\97\107\101\114\93\46\84\101\97\109\61\61\112\108\97\121\101\114\46\84\101\97\109\41\41\32\116\104\101\110\10\9\9\9\9\9\104\105\100\100\101\110\32\61\32\102\97\108\115\101\10\9\9\9\9\101\110\100\10\9\9\9\101\110\100\41\10\9\9\9\119\97\105\116\40\49\41\10\9\9\9\99\111\110\110\58\68\105\115\99\111\110\110\101\99\116\40\41\10\9\9\9\105\102\32\104\105\100\100\101\110\32\97\110\100\32\101\110\97\98\108\101\100\32\116\104\101\110\10\9\9\9\9\105\102\32\112\117\98\108\105\99\32\116\104\101\110\10\9\9\9\9\9\115\97\121\109\115\103\58\70\105\114\101\83\101\114\118\101\114\40\40\112\117\98\108\105\99\73\116\97\108\105\99\115\32\97\110\100\32\34\47\109\101\32\34\32\111\114\32\39\39\41\46\46\34\123\83\80\89\125\32\91\34\46\46\32\112\46\78\97\109\101\32\46\46\34\93\58\32\34\46\46\109\115\103\44\34\65\108\108\34\41\10\9\9\9\9\101\108\115\101\10\9\9\9\9\9\112\114\105\118\97\116\101\80\114\111\112\101\114\116\105\101\115\46\84\101\120\116\32\61\32\34\123\83\80\89\125\32\91\34\46\46\32\112\46\78\97\109\101\32\46\46\34\93\58\32\34\46\46\109\115\103\10\9\9\9\9\9\83\116\97\114\116\101\114\71\117\105\58\83\101\116\67\111\114\101\40\34\67\104\97\116\77\97\107\101\83\121\115\116\101\109\77\101\115\115\97\103\101\34\44\112\114\105\118\97\116\101\80\114\111\112\101\114\116\105\101\115\41\10\9\9\9\9\101\110\100\10\9\9\9\101\110\100\10\9\9\101\110\100\10\9\101\110\100\10\101\110\100\10\10\102\111\114\32\95\44\112\32\105\110\32\105\112\97\105\114\115\40\80\108\97\121\101\114\115\58\71\101\116\80\108\97\121\101\114\115\40\41\41\32\100\111\10\9\112\46\67\104\97\116\116\101\100\58\67\111\110\110\101\99\116\40\102\117\110\99\116\105\111\110\40\109\115\103\41\32\111\110\67\104\97\116\116\101\100\40\112\44\109\115\103\41\32\101\110\100\41\10\101\110\100\10\80\108\97\121\101\114\115\46\80\108\97\121\101\114\65\100\100\101\100\58\67\111\110\110\101\99\116\40\102\117\110\99\116\105\111\110\40\112\41\10\9\112\46\67\104\97\116\116\101\100\58\67\111\110\110\101\99\116\40\102\117\110\99\116\105\111\110\40\109\115\103\41\32\111\110\67\104\97\116\116\101\100\40\112\44\109\115\103\41\32\101\110\100\41\10\101\110\100\41\10\112\114\105\118\97\116\101\80\114\111\112\101\114\116\105\101\115\46\84\101\120\116\32\61\32\34\123\83\80\89\32\34\46\46\40\101\110\97\98\108\101\100\32\97\110\100\32\34\69\78\34\32\111\114\32\34\68\73\83\34\41\46\46\34\65\66\76\69\68\125\34\10\83\116\97\114\116\101\114\71\117\105\58\83\101\116\67\111\114\101\40\34\67\104\97\116\77\97\107\101\83\121\115\116\101\109\77\101\115\115\97\103\101\34\44\112\114\105\118\97\116\101\80\114\111\112\101\114\116\105\101\115\41\10\108\111\99\97\108\32\99\104\97\116\70\114\97\109\101\32\61\32\112\108\97\121\101\114\46\80\108\97\121\101\114\71\117\105\46\67\104\97\116\46\70\114\97\109\101\10\99\104\97\116\70\114\97\109\101\46\67\104\97\116\67\104\97\110\110\101\108\80\97\114\101\110\116\70\114\97\109\101\46\86\105\115\105\98\108\101\32\61\32\116\114\117\101\10\99\104\97\116\70\114\97\109\101\46\67\104\97\116\66\97\114\80\97\114\101\110\116\70\114\97\109\101\46\80\111\115\105\116\105\111\110\32\61\32\99\104\97\116\70\114\97\109\101\46\67\104\97\116\67\104\97\110\110\101\108\80\97\114\101\110\116\70\114\97\109\101\46\80\111\115\105\116\105\111\110\43\85\68\105\109\50\46\110\101\119\40\85\68\105\109\46\110\101\119\40\41\44\99\104\97\116\70\114\97\109\101\46\67\104\97\116\67\104\97\110\110\101\108\80\97\114\101\110\116\70\114\97\109\101\46\83\105\122\101\46\89\41\10\45\45\67\114\101\100\105\116\32\116\111\32\79\32\80\108\97\121\115\32\111\110\32\89\111\117\116\117\98\101\44\32\103\111\32\115\117\98\115\99\114\105\98\101\32\116\111\32\104\105\109\32\40\110\111\116\32\109\121\32\97\99\99\111\117\110\116\44\32\106\117\115\116\32\97\100\118\101\114\116\105\115\105\110\103\32\102\111\114\32\104\105\109\44\32\119\101\32\100\111\1
+
+end)
+   UICorner_13.CornerRadius = UDim.new(0, 13)
+UICorner_13.Parent = TextButton_4
+
+
+
+ScriptsTab.Name = "Sonic.exe"
+ScriptsTab.Parent = Main
+ScriptsTab.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
+ScriptsTab.Position = UDim2.new(0.196819082, 0, 0.0989761129, 0)
+ScriptsTab.Size = UDim2.new(0, 404, 0, 264)
+ScriptsTab.Visible = false
+
+UICorner_10.CornerRadius = UDim.new(0, 13)
+UICorner_10.Parent = Sonic.exe
+
+TextLabel_8.Parent = Sonic.exe
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.BackgroundTransparency = 1.000
+TextLabel_8.Size = UDim2.new(0, 404, 0, 34)
+TextLabel_8.Font = Enum.Font.SourceSans
+TextLabel_8.Text = "Scripts"
+TextLabel_8.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_8.TextSize = 21.000
+
+
+UICorner_21.CornerRadius = UDim.new(0, 13)
+UICorner_21.Parent = TextButton_13
+
+
