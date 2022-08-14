@@ -1,0 +1,126 @@
+local ScreenGui = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ScreenGui.ResetOnSpawn = false
+
+Main.Name = "Main"
+
+Main.Parent = ScreenGui
+Main.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Main.Position = UDim2.new(0.105039023, -90, .0895673111, -90)
+Main.Size = UDim2.new(0, 0.001, 0.001, 0.001)
+Main.Active = true
+
+TextLabel.BackgroundTransparency = 0.5
+TextLabel.Parent = Main
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+TextLabel.Size = UDim2.new(0, 1000, 0, 1000)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = ""
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 14.000
+TextLabel.Transparncy = 1
+
+	--God Slayer nejejr
+
+
+
+
+--[[wait(0.1)
+-------------------------------
+local p=game:service("Players").LocalPlayer
+if  p.Name=="Reruderu" then
+        p:Kick("go away, skid who uses crappy decompilers,v3rmie skid.")
+elseif p.Name=="Rerumu" then
+        p:Kick("no thanks, skid who uses crappy decompilers that they didnt make.also being an pathetic v3rmie kid")
+end]]
+local p=game:service("Players").LocalPlayer
+local char=p.Character
+script.Parent=char 
+local torso=char.Torso
+local hed=char.Head
+local larm=char:FindFirstChild("Left Arm")
+local rarm=char:FindFirstChild("Right Arm")
+local lleg=char:FindFirstChild("Left Leg")
+local rleg=char:FindFirstChild("Right Leg") 
+local hum=char.Humanoid
+local cam=workspace.CurrentCamera
+local root=char.HumanoidRootPart
+local mouse=p:GetMouse()
+local hb=game:service("RunService").Heartbeat
+local rs=game:service("RunService").Stepped
+hum.MaxHealth=math.huge
+hum.Health=hum.MaxHealth
+local pgui=Instance.new("ScreenGui",p.PlayerGui)
+random={25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,-25,-26,-27,-28,-29,-30,-31,-32,-33,-34,-35,-36,-37,-38,-39,-40,-41,-42,-43,-44,-45,-46,-47,-48,-49,-50,-51,-52,-53,-54,-55,-56,-57,-58,-59,-60,-61,-62,-63,-64,-65,-66,-67,-68,-69,-70,-71,-72,-73,-74,-75,-76,-77,-78,-79,-80,-81,-82,-83,-84,-85,-86,-87,-88,-89,-90,-91,-92,-93,-94,-95,-96,-97,-98,-99,-100}
+local run = 30
+local normal = 16
+local color = "Really black"
+local color2 = "Really blue"
+local righteyebrickcolor = "Really blue"
+local NumCol = 0,0,255
+local GodSlayer = true
+local Full = false
+hum.WalkSpeed = 6
+ptz = {0.8, 0.85, 0.9, 0.95, 1, 1.05, 1.1}
+-------------------
+
+
+
+function swait(num)
+if num==0 or num==nil then
+game:service'RunService'.Stepped:wait(0)
+else
+for i=0,num do
+game:service'RunService'.Stepped:wait(0)
+end
+end
+end
+
+function chatfunc(text)
+local chat = coroutine.wrap(function()
+if char:FindFirstChild("TalkingBillBoard")~= nil then
+char:FindFirstChild("TalkingBillBoard"):destroy()
+end
+local naeeym2 = Instance.new("BillboardGui",char)
+naeeym2.Size = UDim2.new(0,100,0,40)
+naeeym2.StudsOffset = Vector3.new(0,3,0)
+naeeym2.Adornee = char.Head
+naeeym2.Name = "TalkingBillBoard"
+local tecks2 = Instance.new("TextLabel",naeeym2)
+tecks2.BackgroundTransparency = 1
+tecks2.BorderSizePixel = 0
+tecks2.Text = "Dust Zero"
+tecks2.Font = "Fantasy"
+tecks2.TextSize = 30
+tecks2.TextStrokeTransparency = 0
+tecks2.TextColor3 = Color3.new(.6,0,0)
+tecks2.TextStrokeColor3 = Color3.new(0,0,0)
+tecks2.Size = UDim2.new(1,0,0.5,0)
+local tecks3 = Instance.new("TextLabel",naeeym2)
+
+for i = 1,string.len(text),1 do
+tecks2.Text = string.sub(text,1,i)
+tecks3.Text = string.sub(text,1,i)
+wait(0.01)
+end
+wait(0.1)
+for i = 1, 1 do
+
+end
+
+end)
+chat()
+end
+
+coroutine.resume(coroutine.create(function()
+wait(2)
+chatfunc("Dust Zero")
+end))
+
+
+
+
+
