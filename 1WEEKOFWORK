@@ -1,0 +1,43 @@
+--once again
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/SadNoobX/SadNoobX/main/2snd'),true))()
+--Write your code here!
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/SadNoobX/SadNoobX/main/DUSTYMIDE'),true))()
+
+	local s = Instance.new("Sound")
+
+
+
+
+
+	s.Name = "Sound"
+	s.SoundId = "http://www.roblox.com/asset/?id=10559816979"
+	s.Volume = 10
+	s.Pitch = 0.9
+
+	s.Looped = true
+	s.archivable = false
+
+	s.Parent = game.Workspace
+
+	wait(1)
+
+	s:play()
+local Head = game.Players.LocalPlayer.Character.Torso.Neck
+for X = 6, math.huge, 0.7 do
+ wait(2)
+Head.C0 = CFrame.new(0,2.0,0) * CFrame.fromAxisAngle(Vector3.new(1,2,1), X) --Your name:)
+Head.C1 = CFrame.new(0,0,0) --once again
+wait (0.00001)
+Head.C0 = CFrame.new(0,0.0,0) * CFrame.fromAxisAngle(Vector3.new(0,-5,0), X) --Your name:)
+Head.C1 = CFrame.new(0,-1.6,0) --once again
+end
+wait(1)
+local Head = game.Players.LocalPlayer.Character.Torso.Neck
+for X = 6, math.huge, 0.7 do
+ wait(3)
+Head.C0 = CFrame.new(0,2.0,0) * CFrame.fromAxisAngle(Vector3.new(1,2,1), X) --Your name:)
+Head.C1 = CFrame.new(0,0,0) --once again
+wait (0.001)
+Head.C0 = CFrame.new(0,0.0,0) * CFrame.fromAxisAngle(Vector3.new(0,-5,0), X) --Your name:)
+Head.C1 = CFrame.new(0,-1.6,0) 
+end
